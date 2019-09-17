@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "BiOpt Toolbox"
 title_separator          : "-"
-name                     : BiOpt Toolbox
+name                     : "BiOpt Toolbox"
 description              : &description "personal description"
 url                      : https://BiOpt.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
