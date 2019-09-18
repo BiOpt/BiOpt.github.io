@@ -9,8 +9,7 @@ This toolbox [$\texttt{OptValFunc}$](\files\OptValFunc.zip) aims to operate an o
 
 $$\hspace{6cm}~ \psi(x) = \min_{y} \{f(x, y):~g(x; y)\leq 0\},$$
 
-where $x\in\mathbb{R}^{n_x},y\in\mathbb{R}^{n_y}$ and $g:\mathbb{R}^{n_x\times n_y}\rightarrow \mathbb{R}^{n_g}$. This toolbox comrises two tools:
-
+where $x\in\mathbb{R}^{n_x},y\in\mathbb{R}^{n_y}$ and $g:\mathbb{R}^{n_x\times n_y}\rightarrow \mathbb{R}^{n_g}$. Detailed descriptions of usage of this toolbox can be found in Section 3 of the [menu](\files\menu-of-BiOpt.pdf).  $\texttt{OptValFunc}$ can be [download here](\files\OptValFunc.zip), in which there are two tools:
 
 $\texttt{SolOVF}$
 ---
@@ -21,4 +20,3 @@ $\texttt{PlotOVF}$
 It plots the graph $\psi(x)$ along with $x$. Thus for the purpose of visualization, the dimension $n_x$ of $x$ must be 1 (for two dimensional space) or 2 (for three dimensional space). 
 
 
-Detailed descriptions of usage of above tools can be found in Section 3 of the [menu](\files\menu-of-BiOpt.pdf). The toolbox $\texttt{OptValFunc}$ can be [download here](\files\OptValFunc.zip).
