@@ -7,7 +7,8 @@ author_profile: true
  
 <br/><img src='/images/slzhou.jpg'>
 
- [Shenglong Zhou](https://shenglongzhou.github.io)  
+
+ [Dr Shenglong Zhou](https://shenglongzhou.github.io)  
  ---
  
 * Research Fellow at the [University of Southampton](https://www.southampton.ac.uk/)
@@ -16,7 +17,7 @@ author_profile: true
 
 <br/><img src='/images/zem.png'> 
 
-[Alain Zemkoho](http://www.southampton.ac.uk/~abz1e14/)  
+[Dr Alain Zemkoho](http://www.southampton.ac.uk/~abz1e14/)  
 ---
 
 * Lecturer at the [University of Southampton](https://www.southampton.ac.uk/)
