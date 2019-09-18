@@ -21,5 +21,5 @@ $\texttt{BOLIB}$
 
 $\texttt{BOLIBver2}$
 ---
-This is a new version constructed based on the old one. $\texttt{BOLIBver2}$ ([downloaded here](\files\BOLIBEver2.zip)) comprises  138 nonlinear including 124 ones from $\texttt{BOLIB}$, 24 linear and  11 simple bilevel optimization test examples. One can refer to [BOLIB2019_test_examples_library_version2](\files\BOLIB2019_test_examples_library_version2.pdf) for more detailed information, such as the dimensions, best known optimal upper and lower-level objective function
+This is a new version constructed based on the old one. $\texttt{BOLIBver2}$ ([BOLIBver2.zip](\files\BOLIBEver2.zip)) comprises  138 nonlinear including 124 ones from $\texttt{BOLIB}$, 24 linear and  11 simple bilevel optimization test examples. One can refer to [BOLIB2019_test_examples_library_version2](\files\BOLIB2019_test_examples_library_version2.pdf) for more detailed information, such as the dimensions, best known optimal upper and lower-level objective function
 values, or the starting points. 
