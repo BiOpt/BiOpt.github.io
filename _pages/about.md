@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-To help accelerate the development of numerical toolboxes for bilevel optimization, the toolbox aims at creating a platform on which users can test a wide range of bilevel optimization problems by using the provided solvers. The whole $\texttt{BiOpt}$ toolbox can be  [download here](\files\BiOpt-toolbox.zip). To well understand how to use it, please see a [menu](\files\menu-of-BiOpt.pdf).  $\texttt{BiOpt}$ toolbox currently comprises four basic tools:
+To help accelerate the development of numerical toolboxes for bilevel optimization, the toolbox aims at creating a platform on which users can test a wide range of bilevel optimization problems by using the provided solvers. The whole $\texttt{BiOpt}$ toolbox can be  [download here](\files\BiOpt-toolbox.zip). To well understand how to use it, please see a [menu](\files\menu-of-BiOpt.pdf).  $\texttt{BiOpt}$ currently comprises four basic tools:
 
 Bilevel optimization solvers
 ---
