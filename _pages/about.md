@@ -12,16 +12,15 @@ To help accelerate the development of numerical toolboxes for bilevel optimizati
 
 Bilevel optimization solvers
 ---
-three bilevel optimization solvers
+There are three bilevel optimization solvers: SNLLVF, SNQVI and SNKKT. All of them are created based on Semismooth Newton-type methods. 
 
 Derivatives calculator
 ---
-a tool to calculate the first, second and third order derivatives
-of a single/set-valued function.
+This is a tool to calculate the first, second and third order derivatives of a single/set-valued function. [Download](\files\GetDerivatives)
 
 Optimal-value function tools
 ---
-a tool to plot the graph of an optimal-value function in the form of  $\psi(x) = min_y {f(x, y):g(x; y)\ leq 0}$ and a tool to calculate the function value
+a tool to plot the graph of an optimal-value function in the form of  $\psi(x) = \min_{y} \{f(x, y):g(x; y)\leq 0\}$ and a tool to calculate the function value
 
 BOLIB
 ---
