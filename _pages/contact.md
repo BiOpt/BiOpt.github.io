@@ -12,7 +12,7 @@ Research Fellow at the [University of Southampton](https://www.southampton.ac.uk
 Email: shenglong.zhou@soton.ac.uk <br> 
 [School of Mathematics](https://www.southampton.ac.uk/maths), University of Southampton,  SO17 1BJ Southampton, UK <br> <br> <br>
 
-[Dr Alain Zemkoho](http://www.southampton.ac.uk/~abz1e14/) <br>
+[Dr Alain Zemkoho](http://www.southampton.ac.uk/~abz1e14/)
 ---
 ![Dr Alain Zemkoho](/images/zem.png) <br> <br>  
 Lecturer at the [University of Southampton](https://www.southampton.ac.uk/) <br>
