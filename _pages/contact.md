@@ -14,8 +14,8 @@ University of Southampton,  SO17 1BJ Southampton, UK  | University of Southampto
 
 
 ![Markdown Here logo](/images/slzhou.jpg) 
-[Dr Shenglong Zhou](https://shenglongzhou.github.io) 
-Research Fellow at the [University of Southampton](https://www.southampton.ac.uk/)
-shenglong.zhou@soton.ac.uk
-[School of Mathematics](https://www.southampton.ac.uk/maths)
-University of Southampton,  SO17 1BJ Southampton, UK
+[Dr Shenglong Zhou](https://shenglongzhou.github.io) <br>
+Research Fellow at the [University of Southampton](https://www.southampton.ac.uk/)<br>
+shenglong.zhou@soton.ac.uk<br>
+[School of Mathematics](https://www.southampton.ac.uk/maths)<br>
+University of Southampton,  SO17 1BJ Southampton, UK<br>
