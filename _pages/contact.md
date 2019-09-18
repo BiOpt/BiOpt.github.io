@@ -10,7 +10,7 @@ author_profile: true
 ![Dr Shenglong Zhou](/images/slzhou.jpg) <br> <br> 
 Research Fellow at the [University of Southampton](https://www.southampton.ac.uk/) <br> 
 Email: shenglong.zhou@soton.ac.uk <br> 
-[School of Mathematics](https://www.southampton.ac.uk/maths), University of Southampton,  SO17 1BJ Southampton, UK <br> <br> <br>
+[School of Mathematics](https://www.southampton.ac.uk/maths), University of Southampton,  SO17 1BJ Southampton, UK <br> 
 
 [Dr Alain Zemkoho](http://www.southampton.ac.uk/~abz1e14/)
 ---
