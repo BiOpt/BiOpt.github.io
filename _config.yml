@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "BiOpt Toolbox"
   avatar           : "bilevel.jpg"
-  bio              : "University of Southampton, UK"
-  location         : "Southampton, UK"
+  bio              : # "University of Southampton, UK"
+  location         : # "Southampton, UK"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
