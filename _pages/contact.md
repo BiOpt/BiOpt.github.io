@@ -4,9 +4,8 @@ title: ""
 permalink: /contact/
 author_profile: true
 ---
- 
-<br/><img src='/images/slzhou.jpg'>
 
+<br/><img src='/images/slzhou.jpg'>
 
 [Dr Shenglong Zhou](https://shenglongzhou.github.io)  
 ---
