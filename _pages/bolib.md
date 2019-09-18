@@ -14,6 +14,6 @@ This new version of $\texttt{BOLIBver2}$ can be [downloaded here](\files\BOLIBEx
 values, or the starting points. All examples are coded through Matlab and saved in m-files. Here the coded  bilevel optimization has the form
 
 \begin{equation}\label{P}
-   \underset{x,y}\min~F(x,y)\;\;\mbox{s.t.}\;\; G(x,y)\leg 0,\;\, y\in \mbox{argmin}_y~\{f(x,y)\mid g(x,z)\leq 0\}
+   \underset{x,y}\min~ F(x,y)~~ \mbox{s.t.}~  G(x,y)\leg 0,~ y\in \mbox{argmin}_y~ \{f(x,y)\mid g(x,z)\leq 0\}
 \end{equation}
 where  $F,f:\mathbb{R}^{n_x}\times\mathbb{R}^{n_y}\rightarrow \mathbb{R}$, $G:\mathbb{R}^{n_x}\times\mathbb{R}^{n_y}\rightarrow \mathbb{R}^{n_G}$ and $g:\mathbb{R}^{n_x}\times\mathbb{R}^{n_y}\rightarrow \mathbb{R}^{n_g}$
