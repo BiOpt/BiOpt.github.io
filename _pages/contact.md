@@ -13,7 +13,6 @@ author_profile: true
 * Email: shenglong.zhou@soton.ac.uk
 * Address: [School of Mathematics](https://www.southampton.ac.uk/maths), University of Southampton,  SO17 1BJ Southampton, UK 
 
-
 <br/><img src='/images/zem.png'> 
 
 [Alain Zemkoho](http://www.southampton.ac.uk/~abz1e14/)
