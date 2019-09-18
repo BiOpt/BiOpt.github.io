@@ -20,7 +20,7 @@ This is a tool to calculate the first, second and third order derivatives of a s
 
 Optimal-value function tools
 ---
-There are two tools to operate an optimal-value function in the form of  $$\psi(x) = \min_{y} \{f(x, y):~g(x; y)\leq 0\}$$, with plotting  its graph or computing its function value. [More information here](https://biopt.github.io/valuefunc/) or [download](\files\OptValFunc.zip)
+There are two tools to operate an optimal-value function with plotting  its graph or computing its function value. The optimal-value function has the form of  $$\psi(x) = \min_{y} \{f(x, y):~g(x; y)\leq 0\}$$. [More information here](https://biopt.github.io/valuefunc/) or [download](\files\OptValFunc.zip)
 
 BOLIB
 ---
