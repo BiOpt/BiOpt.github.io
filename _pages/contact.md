@@ -12,3 +12,13 @@ shenglong.zhou@soton.ac.uk | a.b.zemkoho@soton.ac.uk
 [School of Mathematics](https://www.southampton.ac.uk/maths)| [School of Mathematics](https://www.southampton.ac.uk/maths) 
 University of Southampton,  SO17 1BJ Southampton, UK  | University of Southampton,  SO17 1BJ Southampton, UK  
 
+<table border="0">
+ <tr>
+    <td><b style="font-size:30px">Title</b></td>
+    <td><b style="font-size:30px">Title 2</b></td>
+ </tr>
+ <tr>
+    <td>Lorem ipsum ...</td>
+    <td>Lorem ipsum ...</td>
+ </tr>
+</table>
