@@ -19,9 +19,10 @@ author_profile: true
  
  
 <br/><img src='/images/slzhou.jpg'>
-  caption = "[Shenglong Zhou](https://shenglongzhou.github.io) "
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = "left"
-
+ [Shenglong Zhou](https://shenglongzhou.github.io)
+ ---
+* Research Fellow at the [University of Southampton](https://www.southampton.ac.uk/)
+* Email: shenglong.zhou@soton.ac.u
+* Address: School of Mathematics, [School of Mathematics](https://www.southampton.ac.uk/maths) n,  SO17 1BJ Southampton, UK 
 
 
