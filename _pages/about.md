@@ -20,7 +20,7 @@ This is a tool to calculate the first, second and third order derivatives of a s
 
 Optimal-value function tools
 ---
-a tool to plot the graph of an optimal-value function in the form of  $\psi(x) = \min_{y} \{f(x, y):g(x; y)\leq 0\}$ and a tool to calculate the function value
+a tool to plot the graph of an optimal-value function in the form of  $$\psi(x) = \min_{y} \{f(x, y):g(x; y)\leq 0\}$$ and a tool to calculate the function value
 
 BOLIB
 ---
