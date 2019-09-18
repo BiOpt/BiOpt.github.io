@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-To help accelerate the development of numerical toolboxes for bilevel optimization, BiOpt aims at creating a platform on which users can test a wide range of bilevel optimization problems by using the provided solvers. BiOpt toolbox currently comprises four basic tools:
+To help accelerate the development of numerical toolboxes for bilevel optimization, [BiOpt](\files\BiOpt-toolbox.zip) aims at creating a platform on which users can test a wide range of bilevel optimization problems by using the provided solvers. $\texttt{BiOpt}$ toolbox currently comprises four basic tools:
 
 Bilevel optimization solvers
 ---
-There are three bilevel optimization solvers: SNLLVF, SNQVI and SNKKT. All of them are created based on Semismooth Newton-type methods.  [More information here](https://biopt.github.io/solvers/) or [download](\files\BiOpt-Solvers.zip)
+There are three bilevel optimization solvers: $\texttt{SNLLVF}$, $\texttt{SNQVI}$ and $\texttt{SNKKT}$. All of them are created based on Semismooth Newton-type methods.  [More information here](https://biopt.github.io/solvers/) or [download](\files\BiOpt-Solvers.zip)
 
 Derivatives calculator
 ---
@@ -20,7 +20,7 @@ This is a tool to calculate the first, second and third order derivatives of a s
 
 Optimal-value function tools
 ---
-There are two tools to operate an optimal-value function with plotting  its graph or computing its function value. The optimal-value function has the form of  $$\psi(x) = \min_{y} \{f(x, y):~g(x; y)\leq 0\}$$. [More information here](https://biopt.github.io/valuefunc/) or [download](\files\OptValFunc.zip)
+There are two tools to operate an optimal-value function with plotting  its graph or computing its function value.  [More information here](https://biopt.github.io/valuefunc/) or [download](\files\OptValFunc.zip)
 
 BOLIB
 ---
