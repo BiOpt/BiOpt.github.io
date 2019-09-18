@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome to BiOpt Toolbox!"
+title: "Welcome to BiOpt Toolbox"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -16,7 +16,7 @@ There are three bilevel optimization solvers: SNLLVF, SNQVI and SNKKT. All of th
 
 Derivatives calculator
 ---
-This is a tool to calculate the first, second and third order derivatives of a single/set-valued function. [Download](\files\GetDerivatives.zip)
+This is a tool to calculate the first, second and third order derivatives of a single/set-valued function. [More information here](\GetDerivatives)
 
 Optimal-value function tools
 ---
