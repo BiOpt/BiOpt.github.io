@@ -17,7 +17,13 @@ author_profile: true
                                         * Address: School of Mathematics, University of Southampton,  SO17 1BJ Southampton, UK 
 
  
- 
+# To use, add an image named `featured.jpg/png` to your page's folder. 
+<br/><img src='/images/slzhou.jpg'>
+  # Caption (optional)
+  caption = "[Shenglong Zhou](https://shenglongzhou.github.io) "
+  # Focal point (optional)
+  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  focal_point = "
 
 
 
