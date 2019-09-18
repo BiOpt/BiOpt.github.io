@@ -23,3 +23,9 @@ Research Fellow at the [University of Southampton](https://www.southampton.ac.uk
 |^| SO17 1BJ Southampton, UK |
  
  
+|<br/><img src='/images/zem.png'>  | ^|
+|^|[Dr Alain Zemkoho](http://www.southampton.ac.uk/~abz1e14/)  |
+|^| Lecturer at the [University of Southampton](https://www.southampton.ac.uk/) |
+|^| Email: a.b.zemkoho@soton.ac.uk |
+|^| University of Southampton |
+|^| SO17 1BJ Southampton, UK |
