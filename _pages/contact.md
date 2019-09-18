@@ -7,7 +7,7 @@ author_profile: true
 
 
 
-<br/><img src='/images/slzhou.jpg'>  <br> 
+|<br/><img src='/images/slzhou.jpg'>  <br> 
 [Dr Shenglong Zhou](https://shenglongzhou.github.io) <br>
 Research Fellow at the [University of Southampton](https://www.southampton.ac.uk/)<br>
 shenglong.zhou@soton.ac.uk <br>
@@ -18,4 +18,4 @@ University of Southampton,  SO17 1BJ Southampton, UK |
 Lecturer at the [University of Southampton](https://www.southampton.ac.uk/)   <br>
 a.b.zemkoho@soton.ac.uk  <br>
 [School of Mathematics](https://www.southampton.ac.uk/maths)  <br>
- University of Southampton,  SO17 1BJ Southampton, UK 
+ University of Southampton,  SO17 1BJ Southampton, UK |
