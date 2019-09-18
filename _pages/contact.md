@@ -15,8 +15,8 @@ Research Fellow at the [University of Southampton](https://www.southampton.ac.uk
  --|--|--
  Address:  [School of Mathematics](https://www.southampton.ac.uk/maths) | [School of Mathematics](https://www.southampton.ac.uk/maths) 
  --|--|--
- University of Southampton   | University of Southampton 
+ $~~~~~ $  University of Southampton   | $ ~~~~~ $ University of Southampton 
  --|--|--
- SO17 1BJ Southampton, UK   | SO17 1BJ Southampton, UK 
+  $~~~~~ $  SO17 1BJ Southampton, UK   | $ ~~~~~ $ SO17 1BJ Southampton, UK 
  --|--|--
 
