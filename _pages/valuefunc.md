@@ -7,7 +7,7 @@ author_profile: true
 
 This toolbox [$\texttt{OptValFunc}$](\files\OptValFunc.zip) aims to operate an optimal-value function (OVF) in the form 
 
-$$\hspace{6cm}~ \psi(x) = \min_{y} \{f(x, y):~g(x; y)\leq 0\},$$
+$$\hspace{4cm}~ \psi(x) = \min_{y} \{f(x, y):~g(x; y)\leq 0\},$$
 
 where $x\in\mathbb{R}^{n_x},y\in\mathbb{R}^{n_y}$ and $g:\mathbb{R}^{n_x\times n_y}\rightarrow \mathbb{R}^{n_g}$. Detailed descriptions of usage of this toolbox can be found in Section 3 of the [menu](\files\menu-of-BiOpt.pdf).  $\texttt{OptValFunc}$ can be [download here](\files\OptValFunc.zip), in which there are two tools:
 
