@@ -6,11 +6,12 @@ author_profile: true
 ---
 
 
-![Markdown Here logo](/images/slzhou.jpg) <br> 
+
+<br/><img src='/images/zem.png'>  <br> 
 [Dr Shenglong Zhou](https://shenglongzhou.github.io) <br>
 Research Fellow at the [University of Southampton](https://www.southampton.ac.uk/)<br>
 shenglong.zhou@soton.ac.uk <br>
-[School of Mathematics](https://www.southampton.ac.uk/maths)<br>
+[School of Mathematics](https://www.southampton.ac.uk/maths) <br>
 University of Southampton,  SO17 1BJ Southampton, UK | 
 <br/><img src='/images/zem.png'>  
 Lecturer at the [University of Southampton](https://www.southampton.ac.uk/)   <br>
