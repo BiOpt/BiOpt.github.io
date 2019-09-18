@@ -121,17 +121,17 @@ author:
   avatar           : "slzhou.jpg"
   bio              : "Research Fellow at the University of Southampton"
   location         : "Southampton, UK"
-  email            :  "shenglong.zhou@soton.ac.uk'
-  github           :  "ShenglongZhou"
-  researchgate     :  "https://www.researchgate.net/profile/Shenglong_Zhou"
+  email            : "shenglong.zhou@soton.ac.uk'
+  github           : "ShenglongZhou"
+  researchgate     : "https://www.researchgate.net/profile/Shenglong_Zhou"
  
- author:
+author:
   name             : "Dr Alain Zemkoho"
   avatar           : "zem.png"
   bio              : "Lecturer at the University of Southampton"
   location         : "Southampton, UK"
-  email            :  "a.b.zemkoho@soton.ac.uk'
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  email            : "a.b.zemkoho@soton.ac.uk'
+  researchgate     : # example: "https://www.researchgate.net/profile/yourprofile"
 
 
 # Reading Files
