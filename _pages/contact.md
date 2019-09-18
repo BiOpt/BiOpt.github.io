@@ -5,7 +5,7 @@ permalink: /contact/
 author_profile: true
 ---
 
-\vspace{-1cm}
+$\vspace{-1cm}$
 
 [Dr Shenglong Zhou](https://shenglongzhou.github.io) 
 ---
