@@ -13,4 +13,4 @@ shenglong.zhou@soton.ac.uk | a.b.zemkoho@soton.ac.uk
 University of Southampton,  SO17 1BJ Southampton, UK  | University of Southampton,  SO17 1BJ Southampton, UK  
 
 
-  ![Markdown Here logo](<br/><img src='/images/slzhou.jpg'>) 
+  ![Markdown Here logo](/images/slzhou.jpg) 
