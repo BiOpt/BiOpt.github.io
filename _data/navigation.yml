@@ -1,22 +1,15 @@
 # main links links
 main:
-  - title: "Publications"
-    url: /publications/
+  - title: "Solvers"
+    url: /solvers/
 
-  - title: "Talks"
-    url: /talks/    
+  - title: "GetDerivatives"
+    url: /getderivatives/    
 
-  - title: "Teaching"
-    url: /teaching/    
+  - title: "ValueFunc"
+    url: /valuefunc/    
     
-  - title: "Portfolio"
-    url: /portfolio/
+  - title: "BOLIB"
+    url: /bolib/
         
-  - title: "Blog Posts"
-    url: /year-archive/
-    
-  - title: "CV"
-    url: /cv/
-    
-  - title: "Guide"
-    url: /markdown/
+ 
