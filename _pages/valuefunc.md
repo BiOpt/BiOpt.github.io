@@ -19,3 +19,6 @@ It solves the above minimization problem with providing the function values and 
 $\texttt{PlotOVF}$
 ---
 It plots the graph $\psi(x)$ along with $x$. Thus for the purpose of visualization, the dimension $n_x$ of $x$ must be 1 (for two dimensional space) or 2 (for three dimensional space). 
+
+
+Detailed descriptions of usage of above tools can be found in Section 3 of the [menu](\files\menu-of-BiOpt.pdf). The toolbox [OptValFunc] can be [download here](\files\OptValFunc.zip)
