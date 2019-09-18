@@ -5,8 +5,6 @@ permalink: /contact/
 author_profile: true
 ---
 
-
-
  <br/><img src='/images/slzhou.jpg'> | <br/><img src='/images/zem.png'>  
 --|--|--
 [Dr Shenglong Zhou](https://shenglongzhou.github.io)  | [Dr Alain Zemkoho](http://www.southampton.ac.uk/~abz1e14/)  
