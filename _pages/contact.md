@@ -18,5 +18,5 @@ Address: [School of Mathematics](https://www.southampton.ac.uk/maths), Universit
 ---
 ![Dr Alain Zemkoho](/images/zem.png) <br> <br>
 Lecturer at the [University of Southampton](https://www.southampton.ac.uk/) <br>
-Email: a.b.zemkoho@soton.ac.uk <br>
+Email: a.b.zemkoho@soton.ac.uk <br> 
 Address: [School of Mathematics](https://www.southampton.ac.uk/maths),  University of Southampton, SO17 1BJ Southampton, UK <br> 
