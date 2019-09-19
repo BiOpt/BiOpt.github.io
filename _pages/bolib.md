@@ -24,52 +24,55 @@ $\texttt{BOLIBver2}$
 This is a new version constructed based on the old one. [BOLIBver2.zip](\files\BOLIBEver2.zip) comprises  138 nonlinear including 124 ones from $\texttt{BOLIB}$, 24 linear and  11 simple bilevel optimization test examples. Refer to [BOLIB2019_test_examples_library_version2.pdf](\files\BOLIB2019_test_examples_library_version2.pdf) for more information, such as dimensions, best known solutions  or  starting points. All examples are coded through Matlab and saved in m-files. Each m-file has similar pattern. For example,
  
  ```
-function w=DempeLohse2011Ex31b(x,y,keyf,keyxy)
+function w=Outrata1990Ex1a(x,y,keyf,keyxy)
+% This file provides all functions defining Outrata1990Ex1a problem 
+% and their first and second order derivatives.
+% [dim_x dim_y dim_G dim_g] = [2 2 0 4]
 
 if nargin<4 || isempty(keyxy)
     switch keyf
-    case 'F'; w = sum((x-[.5; .5; 0]).^2)-[3 3 6]*y;
-    case 'G'; w = [];      
-    case 'f'; w = sum(x.*y);     
-    case 'g'; w = [1 1 1; -1 1 0; -eye(3)]*y-[2;0;0;0;0];
+    case 'F'; w = 0.1*(x'*x)+0.5*sum((y-[3; 4]).^2)-12.5;
+    case 'G'; w = [];   
+    case 'f'; w = 0.5*(y'*[1 -2; -2 5]*y)-x'*y;
+    case 'g'; w = [[-0.333 1]*y-2; [1 -0.333]*y-2; -y];   
     end    
 else
     switch keyf
     case 'F'
         switch keyxy
-        case 'x' ; w = 2*x-[1 1 0]';        
-        case 'y' ; w = [-3;-3;-6];       
-        case 'xx'; w = 2*eye(3);
-        case 'xy'; w = zeros(3);
-        case 'yy'; w = zeros(3);
+        case 'x' ; w = 0.2*x;         
+        case 'y' ; w = y -[3; 4];     
+        case 'xx'; w = 0.2*eye(2);
+        case 'xy'; w = zeros(2);
+        case 'yy'; w = eye(2);
         end 
     case 'G'  
-        switch keyxy
+        switch keyxy            
         case 'x' ; w = [];    
-        case 'y' ; w = [];         
+        case 'y' ; w = [];          
         case 'xx'; w = [];
         case 'xy'; w = [];
         case 'yy'; w = [];
         end           
 	case 'f'   
         switch keyxy
-        case 'x' ; w = y;    
-        case 'y' ; w = x;         
-        case 'xx'; w = zeros(3);
-        case 'xy'; w = eye(3);
-        case 'yy'; w = zeros(3);
+        case 'x' ; w = -y;    
+        case 'y' ; w = [1 -2; -2 5]*y-x;        
+        case 'xx'; w = zeros(2);
+        case 'xy'; w = -eye(2);
+        case 'yy'; w = [1 -2; -2 5];
         end           
-	case 'g'    
+	case 'g'   
         switch keyxy
-        case 'x' ; w = zeros(5,3);
-        case 'y' ; w = [ 1 1 1; -1 1 0; -eye(3)];             
-        case 'xx'; w = zeros(15,3);
-        case 'xy'; w = zeros(15,3);
-        case 'yy'; w = zeros(15,3);
+        case 'x' ; w = zeros(4,2);
+        case 'y' ; w = [-0.333 1; 1 -0.333; -eye(2)];                
+        case 'xx'; w = zeros(8,2);
+        case 'xy'; w = zeros(8,2);
+        case 'yy'; w = zeros(8,2);
         end        
    end   
 end
-
 end
 
  ```
+This m-file defines the Example considered by [Outrata](https://link.springer.com/article/10.1007/BF01416737).
