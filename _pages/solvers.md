@@ -5,6 +5,9 @@ permalink: /solvers/
 author_profile: true
 ---
 
+<span style="color:orange">Bilevel optimization solvers</span> 
+===
+
 Bilevel optimization has the form
 
 $$ \min_{x,y}~ F(x,y)~~ \mbox{s.t.}~  G(x,y)\leq 0,~ y\in \mbox{argmin}_y~ \{ f(x,y)\mid g(x,y)\leq 0 \}, \nonumber $$
