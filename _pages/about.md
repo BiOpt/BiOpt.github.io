@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
  
-<span style="color:pink">Welcome to BiOpt Toolbox</span>
+<span style="color:punch">Welcome to BiOpt Toolbox</span>
 === 
 To help accelerate the development of numerical toolboxes for bilevel optimization, the toolbox aims at creating a platform on which users can test a wide range of bilevel optimization problems by using the provided solvers. The whole $\texttt{BiOpt}$ toolbox can be  download here [BiOpt-toolbox.zip](\files\BiOpt-toolbox.zip). To well understand how to use it, please see a [menu-of-BiOpt.pdf](\files\menu-of-BiOpt.pdf).  $\texttt{BiOpt}$ currently comprises four basic tools:
 
