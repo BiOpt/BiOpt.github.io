@@ -9,7 +9,7 @@ Bilevel optimization has the form
 
 $$ \min_{x,y}~ F(x,y)~~ \mbox{s.t.}~  G(x,y)\leq 0,~ y\in \mbox{argmin}_y~ \{ f(x,y)\mid g(x,y)\leq 0 \}, \nonumber $$
 
-where  $F,f:\mathbb{R}^{n_x}\times\mathbb{R}^{n_y}\rightarrow \mathbb{R}$, $G:\mathbb{R}^{n_x}\times\mathbb{R}^{n_y}\rightarrow \mathbb{R}^{n_G}$ and $g:\mathbb{R}^{n_x}\times\mathbb{R}^{n_y}\rightarrow \mathbb{R}^{n_g}$. This two level optimization problem can be transformed into a single-level version so that Semi-smooth Newton type method is able to be used. 
+where  $F,f:\mathbb{R}^{n_x}\times\mathbb{R}^{n_y}\rightarrow \mathbb{R}$, $G:\mathbb{R}^{n_x}\times\mathbb{R}^{n_y}\rightarrow \mathbb{R}^{n_G}$ and $g:\mathbb{R}^{n_x}\times\mathbb{R}^{n_y}\rightarrow \mathbb{R}^{n_g}$. This two level optimization can be transformed into a single-level version so that Semi-smooth Newton type method is able to be used. 
 
 $\texttt{SNLLVF}$
 ---
@@ -36,3 +36,5 @@ $$ \underset{x,y,z}\min~ F(x,y)+ \lambda g(x,y)^\top z \;\mbox{ s.t. } \; G(x,y)
 \ \ z \leq 0,\ \ \nabla_y f(x,y)-\nabla_y g(x,y)^\top z=0. \nonumber $$
 
 
+$\texttt{BiOpt-Solvers}$ 
+===
