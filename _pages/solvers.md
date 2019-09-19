@@ -114,5 +114,3 @@ end
 ```
 
 This example is from <span style="color:blue">**BOLIBver2**</span> ([BOLIBver2.zip](/files/BOLIBver2.zip)), in which more examples can be found. In  the [menu-of-BiOpt.pdf](\files\menu-of-BiOpt.pdf), we also present several other ways to define the examples that are different with the way to define examples in  <span style="color:blue">**BOLIBver2**</span> .
-
-
