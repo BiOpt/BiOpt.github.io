@@ -16,7 +16,7 @@ To help accelerate the development of numerical toolboxes for bilevel optimizati
 ---
 [BiOpt-Solvers.zip](\files\BiOpt-Solvers.zip) contains three bilevel optimization solvers: $\texttt{SNLLVF}$, $\texttt{SNQVI}$ and $\texttt{SNKKT}$. All of them are created based on Semismooth Newton-type methods.  [More information here](https://biopt.github.io/solvers/) 
 
-Derivatives calculator 
+<span style="color:blue">Derivatives calculator </span>  
 ---
 [GetDerivatives.zip](\files\GetDerivatives.zip) provides a tool to calculate the first, second and third order derivatives of a single/set-valued function. [More information here](https://biopt.github.io/getderivatives/) 
 
