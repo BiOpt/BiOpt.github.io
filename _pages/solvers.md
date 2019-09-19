@@ -38,7 +38,7 @@ $$ \underset{x,y,z}\min~ F(x,y)+ \lambda g(x,y)^\top z \;\mbox{ s.t. } \; G(x,y)
 
 <span style="color:orange">BiOpt-Solvers</span>
 ---
-<span style="color:blue">**BiOpt-Solvers**</span> ([BiOpt-Solvers.zip](/files/BiOpt-Solvers.zip)) provides three solvers: <span style="color:blue">**SNLLVF**</span>, <span style="color:blue">**SNQVI**</span>  and <span style="color:blue">**SNKKT**</span> based on above three reformulations. Detailed descriptions of using them can be found in  the [menu-of-BiOpt.pdf](\files\menu-of-BiOpt.pdf). Here we give a simple example to illustrate it:
+[BiOpt-Solvers.zip](/files/BiOpt-Solvers.zip) provides three solvers: <span style="color:blue">**SNLLVF**</span>, <span style="color:blue">**SNQVI**</span>  and <span style="color:blue">**SNKKT**</span> based on above three reformulations. Detailed descriptions of using them can be found in  the [menu-of-BiOpt.pdf](\files\menu-of-BiOpt.pdf). Here we give a simple example to illustrate it:
 
 ```
 clc; clear; close all; 
