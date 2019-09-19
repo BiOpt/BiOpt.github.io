@@ -23,7 +23,7 @@ redirect_from:
 
 <span style="color:orange">Optimal-value function tools </span>   
 ---
-[OptValFunc.zip](\files\OptValFunc.zip) provides two tools to operate an optimal-value function with plotting  its graph or computing its function value.  [More information here](https://biopt.github.io/valuefunc/) 
+[OptValFunc.zip](\files\OptValFunc.zip) comprises two tools to operate an optimal-value function with plotting  its graph or computing its function value.  [More information here](https://biopt.github.io/valuefunc/) 
 
 <span style="color:orange">BOLIB </span>   
 ---
