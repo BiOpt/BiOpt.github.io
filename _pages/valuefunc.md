@@ -23,8 +23,5 @@ It plots the graph of $\psi(x)$ along with $x$. Thus for the purpose of visualiz
 ![svf-1](/images/ovf1.png) 
 ![svf-3](/images/ovf2.png)  
 
-<div style="width:150px; height:100px">
-![Kitten](/images/ovf1.png)
-</div>
-
+ 
  
