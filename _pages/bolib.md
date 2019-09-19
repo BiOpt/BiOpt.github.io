@@ -74,4 +74,4 @@ end
 end
 
  ```
-This m-file defines the Example considered by [Outrata](https://link.springer.com/article/10.1007/BF01416737).
+This m-file defines the Example considered by [Outrata](https://link.springer.com/article/10.1007/BF01416737). It includes all first and second order derivatives of $F, G, f$ and $g$ as well as their function values.
