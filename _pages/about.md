@@ -10,7 +10,7 @@ redirect_from:
  
 <span style="color:green">Welcome to BiOpt Toolbox</span>
 === 
-To help accelerate the development of numerical toolboxes for bilevel optimization, the toolbox aims at creating a platform on which users can test a wide range of bilevel optimization problems by using the provided solvers. The whole <span style="color:blue">**BiOpt**</span> toolbox can be  download here [BiOpt-toolbox.zip](\files\BiOpt-toolbox.zip). To well understand how to use it, please see a [menu-of-BiOpt.pdf](\files\menu-of-BiOpt.pdf).  <span style="color:blue">**BiOpt**</span> currently comprises four basic tools:
+To help accelerate the development of numerical toolboxes for bilevel optimization, the toolbox aims at creating a platform on which users can test a wide range of bilevel optimization problems by using the provided solvers. The whole <span style="color:blue">**BiOpt toolbox**</span>  can be  download here [BiOpt-toolbox.zip](\files\BiOpt-toolbox.zip). To well understand how to use it, please see a [menu-of-BiOpt.pdf](\files\menu-of-BiOpt.pdf).  <span style="color:blue">**BiOpt toolbox**</span> currently comprises four basic tools:
 
 <span style="color:orange">Bilevel optimization solvers </span> 
 ---
