@@ -24,5 +24,6 @@ It plots the graph of $\psi(x)$ along with $x$. Thus for the purpose of visualiz
 
 ![svf-3](/images/svf-3.pdf) ![svf-5](/images/svf-5.pdf) <br>
 
+<a href="/images/svf-1.pdf">Download PDF</a>
 
 
