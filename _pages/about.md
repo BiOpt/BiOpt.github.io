@@ -24,6 +24,6 @@ To help accelerate the development of numerical toolboxes for bilevel optimizati
 ---
 [OptValFunc.zip](\files\OptValFunc.zip) provides two tools to operate an optimal-value function with plotting  its graph or computing its function value.  [More information here](https://biopt.github.io/valuefunc/) 
 
-<span style="color:blue">BOLIB </span>   
+<span style="color:API Blueprint">BOLIB </span>   
 ---
 [BOLIBver2.zip](\files\BOLIBver2.zip) is a collection of academic and real-world applications or case studies on the problems including 24 linear, 138 nonlinear and 11 simple bilevel optimization test examples. [More information here](https://biopt.github.io/bolib/) 
