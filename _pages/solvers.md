@@ -29,7 +29,7 @@ $$ \underset{x,y}\min~ F(x,y)+ \lambda ( \nabla_y f(x,y)^\top y-\varphi(x,y) ) \
 
 $\texttt{SNKKT}$
 ---
-$\textcolor[rgb]{1.00,0.00,0.50}{the}$ This approach is to transform the bilevel program into a single-level optimization problem 
+This approach is to transform the bilevel program into a single-level optimization problem 
 by converting the lower-level problem to its KKT conditions: $ \nabla_y f(x,y)-\nabla_y g(x,y)^\top z=0,~ g(x,y)\leq 0,~  z \leq 0,~   g(x,y)^\top z=0. $ By doing so,  $\texttt{SNKKT}$ aims at solving a partial penalization
 
 $$ \underset{x,y,z}\min~ F(x,y)+ \lambda g(x,y)^\top z \;\mbox{ s.t. } \; G(x,y)\leq 0,  \ \   g(x,y)\leq 0
@@ -38,4 +38,22 @@ $$ \underset{x,y,z}\min~ F(x,y)+ \lambda g(x,y)^\top z \;\mbox{ s.t. } \; G(x,y)
 
 $\texttt{BiOpt-Solvers}$ 
 ---
-[BiOpt-Solvers.zip](/files/BiOpt-Solvers.zip) proveds three solvers: $\texttt{SNLLVF}$, $\texttt{SNQVI}$ and $\texttt{SNKKT}$ based on above three reformulations.
+[BiOpt-Solvers.zip](/files/BiOpt-Solvers.zip) provides three solvers: $\texttt{SNLLVF}$, $\texttt{SNQVI}$ and $\texttt{SNKKT}$ based on above three reformulations. Detailed descriptions of using them can be found in  the [menu-of-BiOpt.pdf](\files\menu-of-BiOpt.pdf). Here we give a simple example to illustrate them.
+
+```
+clc; clear; close all; 
+
+ExName     = 'DempeDutta2012Ex24_ver1'; 
+func       = str2func(ExName);
+dim        = [1 1 0 1];
+pars.xy    = [1;1];
+
+pars.lam   = 1;
+pars.keep  = 0; 
+pars.check = 1; 
+
+SolNo      = 3;     % choose the solver
+Solvers    = {'SNLLVF','SNQVI','SNKKT'}; 
+solver     = str2func(Solvers{SolNo});  
+Out1       = solver(func, dim,  pars);
+```
