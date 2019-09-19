@@ -30,7 +30,7 @@ $$ \underset{x,y}\min~ F(x,y)+ \lambda ( \nabla_y f(x,y)^\top z-\varphi(x,y) ) \
 $\texttt{SNKKT}$
 ---
 This approach is to transform the bilevel program into a single-level optimization problem 
-by converting the lower-level problem to its KKT conditions: $ \nabla_y f(x,y)-\nabla_y g(x,y)^\top z=0,~ g(x,y)\leq 0,~  z \leq 0,~   g(x,y)^\top z=0. $ By doing so,  \texttt{SNKKT} aims at solving a partial penalization
+by converting the lower-level problem to its KKT conditions: $ \nabla_y f(x,y)-\nabla_y g(x,y)^\top z=0,~ g(x,y)\leq 0,~  z \leq 0,~   g(x,y)^\top z=0. $ By doing so,  $\texttt{SNKKT}$ aims at solving a partial penalization
 
 $$ \underset{x,y,z}\min~ F(x,y)+ \lambda g(x,y)^\top z \;\mbox{ s.t. } \; G(x,y)\leq 0,  \ \   g(x,y)\leq 0
 \ \ z \leq 0,\ \ \nabla_y f(x,y)-\nabla_y g(x,y)^\top z=0. \nonumber $$
