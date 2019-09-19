@@ -8,7 +8,7 @@ author_profile: true
 <span style="color:orange">Optimal-value function tools</span> 
 ===
 
-This toolbox <span style="color:blue">**OptValFunc**</span> aims to operate an optimal-value function (OVF) in the form 
+This toolbox <span style="color:blue">**OptValFunc**</span> aims to operate an optimal-value function  in the form 
 
 $$ \psi(x) = \min_{y} \{f(x, y):~g(x; y)\leq 0\},\nonumber $$
 
