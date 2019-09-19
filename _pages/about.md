@@ -1,16 +1,18 @@
 ---
 permalink: /
-title: "Welcome to BiOpt Toolbox"
+title: " <span style="color:blue">Welcome to BiOpt Toolbox</span>"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
+ 
+ 
+ 
 To help accelerate the development of numerical toolboxes for bilevel optimization, the toolbox aims at creating a platform on which users can test a wide range of bilevel optimization problems by using the provided solvers. The whole $\texttt{BiOpt}$ toolbox can be  download here [BiOpt-toolbox.zip](\files\BiOpt-toolbox.zip). To well understand how to use it, please see a [menu-of-BiOpt.pdf](\files\menu-of-BiOpt.pdf).  $\texttt{BiOpt}$ currently comprises four basic tools:
 
-Bilevel optimization solvers 
+<span style="color:blue">Bilevel optimization solvers </span> 
 ---
 [BiOpt-Solvers.zip](\files\BiOpt-Solvers.zip) contains three bilevel optimization solvers: $\texttt{SNLLVF}$, $\texttt{SNQVI}$ and $\texttt{SNKKT}$. All of them are created based on Semismooth Newton-type methods.  [More information here](https://biopt.github.io/solvers/) 
 
