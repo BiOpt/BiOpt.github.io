@@ -13,4 +13,3 @@ or third order derivatives of the given function, the usage of <span style="colo
 straightforward and thus the computations are quite complicated.  
 
 Therefore, this toolbox <span style="color:blue">**GetDerivatives**</span> ([GetDerivatives.zip](\files\GetDerivatives.zip)) aims to calculate the first, second and third order derivatives of a single/set-valued function, $f(x):\mathbb{R}^{n_x}\rightarrow \mathbb{R}^{n_f}$, where $n_f\geq1$.   Detailed descriptions of usage of this toolbox can be found in  the [menu-of-BiOpt.pdf](\files\menu-of-BiOpt.pdf).
-
