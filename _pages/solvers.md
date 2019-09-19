@@ -52,8 +52,24 @@ pars.lam   = 1;
 pars.keep  = 0; 
 pars.check = 1; 
 
-SolNo      = 3;     % choose the solver
+SolNo      = 1;     % choose the solver
 Solvers    = {'SNLLVF','SNQVI','SNKKT'}; 
 solver     = str2func(Solvers{SolNo});  
 Out1       = solver(func, dim,  pars);
+```
+
+Here the solved example is 'DempeDutta2012Ex24_ver1' which is defined by a Matlab m-file as
+
+```
+function w=DempeDutta2012Ex24_ver1(x,y,keyf,keyxy)
+% [dim_x dim_y dim_G dim_g] = [1 1 0 1]
+if nargin<4 || isempty(keyxy)
+    switch keyf
+    case 'F'; w = (x-1)^2+y^2;
+    case 'G'; w = []; 
+    case 'f'; w = x^2*y;      
+    case 'g'; w = y^2; 
+    end    
+end
+end
 ```
