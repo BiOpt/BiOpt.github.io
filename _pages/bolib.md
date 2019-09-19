@@ -25,8 +25,7 @@ This is a new version constructed based on the old one. [BOLIBver2.zip](\files\B
  
  ```
 function w=Outrata1990Ex1a(x,y,keyf,keyxy)
-% This file provides all functions defining Outrata1990Ex1a problem 
-% and their first and second order derivatives.
+% This file provides all functions defining Outrata1990Ex1a problem and their first and second order derivatives.
 % [dim_x dim_y dim_G dim_g] = [2 2 0 4]
 
 if nargin<4 || isempty(keyxy)
