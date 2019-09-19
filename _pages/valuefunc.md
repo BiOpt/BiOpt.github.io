@@ -20,7 +20,7 @@ It solves the above minimization problem with providing the function values and 
  
 <span style="color:orange">PlotOVF</span> 
 ---
-It plots the graph of $\psi(x)$ along with $x$. Thus for the purpose of visualization, the dimension $n_x$ of $x$ must be 1 (for two dimensional space) or 2 (for three dimensional space). For example
+It plots the graph of $\psi(x)$ along with $x$. Thus for the purpose of visualization, the dimension $n_x$ of $x$ must be 1 (for two dimensional space) or 2 (for three dimensional space). For example，
 
 <center><img src="/images/ovf111.png" ></center>
 <center><img src="/images/ovf222.png" ></center>
