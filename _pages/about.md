@@ -14,7 +14,7 @@ To help accelerate the development of numerical toolboxes for bilevel optimizati
 
 <span style="color:green">Bilevel optimization solvers </span> 
 ---
-[BiOpt-Solvers.zip](\files\BiOpt-Solvers.zip) contains three bilevel optimization solvers:<span style="color:grey">SNLLVF</span>, $\texttt{SNQVI}$ and $\texttt{SNKKT}$. All of them are created based on Semismooth Newton-type methods.  [More information here](https://biopt.github.io/solvers/) 
+[BiOpt-Solvers.zip](\files\BiOpt-Solvers.zip) contains three bilevel optimization solvers:<span style="color:orange">SNLLVF</span>, $\texttt{SNQVI}$ and $\texttt{SNKKT}$. All of them are created based on Semismooth Newton-type methods.  [More information here](https://biopt.github.io/solvers/) 
 
 <span style="color:blue">Derivatives calculator </span>  
 ---
