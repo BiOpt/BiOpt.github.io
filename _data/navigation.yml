@@ -9,7 +9,7 @@ main:
   - title: "GetDerivatives"
     url: /getderivatives/    
 
-  - title: "ValueFunc"
+  - title: "OptValFunc"
     url: /valuefunc/    
     
   - title: "BOLIB"
