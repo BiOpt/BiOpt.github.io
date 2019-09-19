@@ -20,7 +20,7 @@ $\texttt{PlotOVF}$
 It plots the graph of $\psi(x)$ along with $x$. Thus for the purpose of visualization, the dimension $n_x$ of $x$ must be 1 (for two dimensional space) or 2 (for three dimensional space). For example
 
 
-[svf-1](/images/svf-1.pdf) ![svf-2](/images/svf-2.pdf) <br>
+![svf-1](/images/svf-1.pdf) ![svf-2](/images/svf-2.pdf) <br>
 ![svf-3](/images/svf-3.pdf) ![svf-5](/images/svf-5.pdf) <br>
 
 
