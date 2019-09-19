@@ -17,7 +17,11 @@ $$ \min_{y}~ F(y)~~ \mbox{s.t.}~  G(y)\leq 0,~ y\in \mbox{argmin}_y~ \{ f(y)\mid
 $\texttt{BOLIB}$
 ---
 
- This is the old version of  bilevel optimization test problems libary: $\texttt{BOLIB}$ ([more information here](https://github.com/ShenglongZhou/BOLIB)).  It only contains 124 nonlinear bilevel optimization test examples ([more details here](https://www.researchgate.net/publication/325120369)). All examples are coded through Matlab and saved in m-files. Each m-file has similar pattern. For example,
+ This is the old version of  bilevel optimization test problems libary: $\texttt{BOLIB}$ ([more information here](https://github.com/ShenglongZhou/BOLIB)).  It contains 124 nonlinear bilevel optimization test examples ([more details here](https://www.researchgate.net/publication/325120369)). 
+
+$\texttt{BOLIBver2}$
+---
+This is a new version constructed based on the old one. [BOLIBver2.zip](\files\BOLIBEver2.zip) comprises  138 nonlinear including 124 ones from $\texttt{BOLIB}$, 24 linear and  11 simple bilevel optimization test examples. Refer to [BOLIB2019_test_examples_library_version2.pdf](\files\BOLIB2019_test_examples_library_version2.pdf) for more information, such as dimensions, best known solutions  or  starting points. All examples are coded through Matlab and saved in m-files. Each m-file has similar pattern. For example,
  
  ```
 function w=DempeLohse2011Ex31b(x,y,keyf,keyxy)
@@ -69,7 +73,3 @@ end
 end
 
  ```
-
-$\texttt{BOLIBver2}$
----
-This is a new version constructed based on the old one. [BOLIBver2.zip](\files\BOLIBEver2.zip) comprises  138 nonlinear including 124 ones from $\texttt{BOLIB}$, 24 linear and  11 simple bilevel optimization test examples. Refer to [BOLIB2019_test_examples_library_version2.pdf](\files\BOLIB2019_test_examples_library_version2.pdf) for more information, such as dimensions, best known solutions  or  starting points. 
