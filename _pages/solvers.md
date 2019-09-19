@@ -14,7 +14,7 @@ where  $F,f:\mathbb{R}^{n_x}\times\mathbb{R}^{n_y}\rightarrow \mathbb{R}$, $G:\m
 <span style="color:orange">SNLLVF</span>
 ---
 This approach is to transform the bilevel program into a single-level optimization problem by using
-the lower-level value function (LLVF) reformulation, namely,  $g(x,y)\leq 0, f(x,y) = \varphi(x) := \underset{z}\min$ \{ $ f(x,z) \mid g(x,z)\leq 0 $ \}.   By doing so, <span style="color:grey">**SNLLVF**</span> aims at solving a partial penalization
+the lower-level value function (LLVF) reformulation, namely,  $g(x,y)\leq 0, f(x,y) = \varphi(x) := \underset{z}\min$ \{ $ f(x,z) \mid g(x,z)\leq 0 $ \}.   By doing so, <span style="color:blue">**SNLLVF**</span> aims at solving a partial penalization
 
 $$ \underset{x,y}\min~ F(x,y) + \lambda (f(x,y) -\varphi(x)) ~~ \mbox{ s.t. }~  G(x,y)\leq 0,~ g(x,y)\leq 0. \nonumber $$
  
@@ -22,7 +22,7 @@ $$ \underset{x,y}\min~ F(x,y) + \lambda (f(x,y) -\varphi(x)) ~~ \mbox{ s.t. }~  
 <span style="color:orange">SNQVI</span>
 ---
 This approach is to transform the bilevel program into a single-level optimization problem 
-by converting the lower-level problem to its variational inequalities conditions, a stationary condition: $ \langle \nabla_y f(x,y), z-y \rangle \geq0, \forall~z: g(x,z)\leq 0$ for any $y: g(x,y)\leq 0$. Let $\varphi(x,y) := \underset{z}\min$ \{ $\nabla_y f(x,y)^\top z \mid g(x,z)\leq 0 $ \} .  By doing so,  <span style="color:grey">**SNQVI**</span> aims at solving a partial penalization
+by converting the lower-level problem to its variational inequalities conditions, a stationary condition: $ \langle \nabla_y f(x,y), z-y \rangle \geq0, \forall~z: g(x,z)\leq 0$ for any $y: g(x,y)\leq 0$. Let $\varphi(x,y) := \underset{z}\min$ \{ $\nabla_y f(x,y)^\top z \mid g(x,z)\leq 0 $ \} .  By doing so,  <span style="color:blue">**SNQVI**</span> aims at solving a partial penalization
 
 $$ \underset{x,y}\min~ F(x,y)+ \lambda ( \nabla_y f(x,y)^\top y-\varphi(x,y) ) \;\mbox{ s.t. } \; G(x,y)\leq 0,  \ \   g(x,y)\leq 0. \nonumber $$
 
@@ -30,7 +30,7 @@ $$ \underset{x,y}\min~ F(x,y)+ \lambda ( \nabla_y f(x,y)^\top y-\varphi(x,y) ) \
 <span style="color:orange">SNKKT</span>
 ---
 This approach is to transform the bilevel program into a single-level optimization problem 
-by converting the lower-level problem to its KKT conditions: $ \nabla_y f(x,y)-\nabla_y g(x,y)^\top z=0,~ g(x,y)\leq 0,~  z \leq 0,~   g(x,y)^\top z=0. $ By doing so,  <span style="color:grey">**SNKKT**</span> aims at solving a partial penalization
+by converting the lower-level problem to its KKT conditions: $ \nabla_y f(x,y)-\nabla_y g(x,y)^\top z=0,~ g(x,y)\leq 0,~  z \leq 0,~   g(x,y)^\top z=0. $ By doing so,  <span style="color:blue">**SNKKT**</span> aims at solving a partial penalization
 
 $$ \underset{x,y,z}\min~ F(x,y)+ \lambda g(x,y)^\top z \;\mbox{ s.t. } \; G(x,y)\leq 0,  \ \   g(x,y)\leq 0
 \ \ z \leq 0,\ \ \nabla_y f(x,y)-\nabla_y g(x,y)^\top z=0. \nonumber $$
@@ -38,7 +38,7 @@ $$ \underset{x,y,z}\min~ F(x,y)+ \lambda g(x,y)^\top z \;\mbox{ s.t. } \; G(x,y)
 
 <span style="color:orange">BiOpt-Solvers</span>
 ---
-[BiOpt-Solvers.zip](/files/BiOpt-Solvers.zip) provides three solvers: <span style="color:grey">**SNLLVF**</span>, <span style="color:grey">**SNQVI**</span>  and <span style="color:grey">**SNKKT**</span> based on above three reformulations. Detailed descriptions of using them can be found in  the [menu-of-BiOpt.pdf](\files\menu-of-BiOpt.pdf). Here we give a simple example to illustrate it:
+<span style="color:blue">**BiOpt-Solvers**</span> ([BiOpt-Solvers.zip](/files/BiOpt-Solvers.zip)) provides three solvers: <span style="color:blue">**SNLLVF**</span>, <span style="color:blue">**SNQVI**</span>  and <span style="color:blue">**SNKKT**</span> based on above three reformulations. Detailed descriptions of using them can be found in  the [menu-of-BiOpt.pdf](\files\menu-of-BiOpt.pdf). Here we give a simple example to illustrate it:
 
 ```
 clc; clear; close all; 
@@ -58,7 +58,7 @@ solver     = str2func(Solvers{SolNo});
 Out1       = solver(func, dim,  pars);
 ```
 
-Each solver have two required inputs: 'func' defining the example and 'dim' recording dimensions of the example, and an optinal input 'pars' including some parameters. Please see the [menu-of-BiOpt.pdf](\files\menu-of-BiOpt.pdf) for more details of 'pars'. The chosen solver is <span style="color:grey">**SNLLVF**</span> and the solved example is 'DempeDutta2012Ex24' defined by following Matlab m-file:
+Each solver have two required inputs: 'func' defining the example and 'dim' recording dimensions of the example, and an optinal input 'pars' including some parameters. Please see the [menu-of-BiOpt.pdf](\files\menu-of-BiOpt.pdf) for more details of 'pars'. The chosen solver is <span style="color:blue">**SNLLVF**</span> and the solved example is 'DempeDutta2012Ex24' defined by following Matlab m-file:
 
 ```
 function w=DempeDutta2012Ex24(x,y,keyf,keyxy)
@@ -110,6 +110,6 @@ end
 end
 ```
 
-This example is from <span style="color:grey">**BOLIBver2**</span> ([BOLIBver2.zip](/files/BOLIBver2.zip)), in which more examples can be found. In  the [menu-of-BiOpt.pdf](\files\menu-of-BiOpt.pdf), we also present several other ways to define the examples that are different with the way to define examples in  <span style="color:grey">**BOLIBver2**</span> .
+This example is from <span style="color:blue">**BOLIBver2**</span> ([BOLIBver2.zip](/files/BOLIBver2.zip)), in which more examples can be found. In  the [menu-of-BiOpt.pdf](\files\menu-of-BiOpt.pdf), we also present several other ways to define the examples that are different with the way to define examples in  <span style="color:blue">**BOLIBver2**</span> .
 
 
