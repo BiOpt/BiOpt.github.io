@@ -19,5 +19,5 @@ It solves the above minimization problem with providing the function values and 
 ---
 It plots the graph of $\psi(x)$ along with $x$. Thus for the purpose of visualization, the dimension $n_x$ of $x$ must be 1 (for two dimensional space) or 2 (for three dimensional space). For example
 
-![svf-1](/images/ovf111.png) 
-![svf-3](/images/ovf222.png)  
+$$![svf-1](/images/ovf111.png)$$ 
+$$![svf-3](/images/ovf222.png)$$
