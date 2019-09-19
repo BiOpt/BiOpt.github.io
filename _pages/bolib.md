@@ -5,7 +5,7 @@ permalink: /bolib/
 author_profile: true
 ---
 
-A [bilevel optimization problem](https://biopt.github.io/solvers/) is linear if all its involved functions $F, G, f$ and $g$ are linear, otherwise, it is nonlinear. Simple bilevel optimization is defined by
+A [bilevel optimization problem](https://biopt.github.io/solvers/) is linear if all its involved functions $F, G, f$ and $g$ are linear, otherwise, it is nonlinear. A special calss of bilevel optimization problem is the simple bilevel optimization defined by
 
 $$ \min_{y}~ F(y)~~ \mbox{s.t.}~  G(y)\leq 0,~ y\in \mbox{argmin}_y~ \{ f(y)\mid g(y)\leq 0 \}. \nonumber $$
 
