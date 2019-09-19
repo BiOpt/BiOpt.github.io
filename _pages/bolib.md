@@ -14,14 +14,14 @@ where  $F,f:\mathbb{R}^{n_x}\times\mathbb{R}^{n_y}\rightarrow \mathbb{R}$, $G:\m
 $$ \min_{y}~ F(y)~~ \mbox{s.t.}~  G(y)\leq 0,~ y\in \mbox{argmin}_y~ \{ f(y)\mid g(y)\leq 0 \}. \nonumber $$
 
 
-$\texttt{BOLIB}$
+<span style="color:orange">BOLIB</span>
 ---
 
- This is the old version of  bilevel optimization test problems libary: $\texttt{BOLIB}$ ([more information here](https://github.com/ShenglongZhou/BOLIB)).  It contains 124 nonlinear bilevel optimization test examples ([more details here](https://www.researchgate.net/publication/325120369)). 
+ This is the old version of  bilevel optimization test problems libary: <span style="color:blue">**BOLIB**</span> ([more information here](https://github.com/ShenglongZhou/BOLIB)).  It contains 124 nonlinear bilevel optimization test examples ([more details here](https://www.researchgate.net/publication/325120369)). 
 
-$\texttt{BOLIBver2}$
+<span style="color:orange">BOLIBver2</span>
 ---
-This is a new version constructed based on the old one. [BOLIBver2.zip](\files\BOLIBEver2.zip) comprises 173  bilevel optimization test examples including  138 nonlinear examples (in which 124 ones are taken from $\texttt{BOLIB}$), 24 linear examples and  11 simple examples. The whole list can be found in [BOLIB2019_test_examples_library_version2.pdf](\files\BOLIB2019_test_examples_library_version2.pdf) with more information, such as dimensions, best known solutions  or  starting points. All examples are coded through Matlab and saved in m-files. Each m-file has similar pattern. For example,
+This is a new version constructed based on the old one. [BOLIBver2.zip](\files\BOLIBEver2.zip) comprises 173  bilevel optimization test examples including  138 nonlinear examples (in which 124 ones are taken from <span style="color:blue">**BOLIB**</span>, 24 linear examples and  11 simple examples. The whole list can be found in [BOLIB2019_test_examples_library_version2.pdf](\files\BOLIB2019_test_examples_library_version2.pdf) with more information, such as dimensions, best known solutions  or  starting points. All examples are coded through Matlab and saved in m-files. Each m-file has similar pattern. For example,
  
  ```
 function w=Outrata1990Ex1a(x,y,keyf,keyxy)
