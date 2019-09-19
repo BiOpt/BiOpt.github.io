@@ -15,9 +15,9 @@ $\texttt{SNLLVF}$
 ---
 This approach is to transform the bilevel program into a single-level optimization problem by using
 the lower-level value function (LLVF) reformulation, namely,  
-$f(x,y)\leq \varphi(x) := \underset{z}\min~\left\{f(x,z)\mid g(x,z)\leq 0\right\}.$ By doing so, 
-\texttt{SNLLVF} aims at solving a partial penalization
-$$ \underset{x,y}\min~F(x,y) + \lambda (f(x,y) -\varphi(x)) \;\mbox{ s.t. } \; G(x,y)\leq 0, \; g(x,y)\leq 0. $$
+$f(x,y) \leq \varphi(x) := \underset{z}\min~ \{f(x,z)\mid g(x,z)\leq 0 \}.$ 
+By doing so, $\texttt{SNLLVF}$ aims at solving a partial penalization
+$$ \underset{x,y}\min~ F(x,y) + \lambda (f(x,y) -\varphi(x)) \;\mbox{ s.t. } \; G(x,y)\leq 0, \; g(x,y)\leq 0. $$
  
 $\texttt{SNKKT}$
 ---
