@@ -109,4 +109,4 @@ else
 end
 end
 ```
-This example if from [BOLIBver2](/files/BOLIBver2.zip), in which more examples can be found.
+This example if from [BOLIBver2.zip](/files/BOLIBver2.zip), in which more examples can be found. In  the [menu-of-BiOpt.pdf](\files\menu-of-BiOpt.pdf), we also present several other ways to define the examples that are different with the wae to define examples in  [BOLIBver2.zip](/files/BOLIBver2.zip).
