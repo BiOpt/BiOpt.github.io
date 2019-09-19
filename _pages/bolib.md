@@ -9,11 +9,12 @@ A [bilevel optimization problem](https://biopt.github.io/solvers/) is linear if 
 
 $$ \min_{y}~ F(y)~~ \mbox{s.t.}~  G(y)\leq 0,~ y\in \mbox{argmin}_y~ \{ f(y)\mid g(y)\leq 0 \}. \nonumber $$
 
+This bilevel optimization library <span style="color:blue">**BOLIB**</span> tidies up a wide range of linear, nonlinear and simple test examples from pablications.
 
 <span style="color:orange">BOLIB</span>
 ---
 
- This is the old version of  bilevel optimization test problems libary: <span style="color:blue">**BOLIB**</span> ([more information here](https://github.com/ShenglongZhou/BOLIB)).  It contains 124 nonlinear bilevel optimization test examples ([more details here](https://www.researchgate.net/publication/325120369)). 
+ This is the old version of  bilevel optimization test problems library: <span style="color:blue">**BOLIB**</span> ([more information here](https://github.com/ShenglongZhou/BOLIB)).  It contains 124 nonlinear bilevel optimization test examples ([more details here](https://www.researchgate.net/publication/325120369)). 
 
 <span style="color:orange">BOLIBver2</span>
 ---
