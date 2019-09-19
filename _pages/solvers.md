@@ -38,7 +38,7 @@ $$ \underset{x,y,z}\min~ F(x,y)+ \lambda g(x,y)^\top z \;\mbox{ s.t. } \; G(x,y)
 
 $\texttt{BiOpt-Solvers}$ 
 ---
-[BiOpt-Solvers.zip](/files/BiOpt-Solvers.zip) provides three solvers: $\texttt{SNLLVF}$, $\texttt{SNQVI}$ and $\texttt{SNKKT}$ based on above three reformulations. Detailed descriptions of using them can be found in  the [menu-of-BiOpt.pdf](\files\menu-of-BiOpt.pdf). Here we give a simple example to illustrate them.
+[BiOpt-Solvers.zip](/files/BiOpt-Solvers.zip) provides three solvers: $\texttt{SNLLVF}$, $\texttt{SNQVI}$ and $\texttt{SNKKT}$ based on above three reformulations. Detailed descriptions of using them can be found in  the [menu-of-BiOpt.pdf](\files\menu-of-BiOpt.pdf). Here we give a simple example to illustrate it:
 
 ```
 clc; clear; close all; 
@@ -58,7 +58,7 @@ solver     = str2func(Solvers{SolNo});
 Out1       = solver(func, dim,  pars);
 ```
 
-Here the solved example is 'DempeDutta2012Ex24_ver1' which is defined by a Matlab m-file as
+The chosen solver is $\texttt{SNLLVF}$ and the solved example is 'DempeDutta2012Ex24_ver1' defined by following Matlab m-file:
 
 ```
 function w=DempeDutta2012Ex24_ver1(x,y,keyf,keyxy)
