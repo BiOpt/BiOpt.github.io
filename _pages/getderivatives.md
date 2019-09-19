@@ -4,7 +4,7 @@ title: ""
 permalink: /getderivatives/
 author_profile: true
 ---
-It is well known that Matlab provides users a function <span style="color:blue">**jacobian**</span> ([more information here](https://uk.mathworks.com/help/symbolic/jacobian.html)) to compute the Jacobian
+It is  known that Matlab provides users a function <span style="color:blue">**jacobian**</span> ([more information here](https://uk.mathworks.com/help/symbolic/jacobian.html)) to compute the Jacobian
 matrix of a given single/set-valued function. When it comes to calculate the second order
 or third order derivatives of the given function, the usage of <span style="color:grey">**jacobian**</span> seems not to be
 straightforward and thus the computations are quite complicated.  
