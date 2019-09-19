@@ -80,10 +80,10 @@ analytics:
 
 # Site Author
 author:
-  name             : " BiOpt Toolbox"
+  name             : "BiOpt Toolbox"
   avatar           : "bilevel.jpg"
   bio              :  "<a style='color: blue;' href='https://shenglongzhou.github.io'>Dr Shenglong Zhou</a><br />
-                      Research fellow at the <br>
+                      Research fellow at the <br />
                       <a style='color: blue;' href='http://www.southampton.ac.uk'>University of Southampton</a><br /><br />
                       <a style='color: blue;' href='http://www.southampton.ac.uk/~abz1e14/'>Dr Alain Zemkoho</a><br />
                       Lecture at the <br>
