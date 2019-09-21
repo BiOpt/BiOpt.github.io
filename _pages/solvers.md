@@ -10,8 +10,8 @@ author_profile: true
 
 Bilevel optimization has the form
 
-\begin{eqnarray}\min_{x,y}&&   F(x,y) \nonumber\\\\\\
-\mbox{s.t.}&& G(x,y)\leq 0,~ y\in \mbox{argmin}_y~ \{ f(x,y)\mid g(x,y)\leq 0 \}, \nonumber
+\begin{eqnarray}\min_{x,y} &&   F(x,y) \nonumber\\\\\\
+\mbox{s.t.} && G(x,y)\leq 0,~ y\in \mbox{argmin}_y~ \{ f(x,y)\mid g(x,y)\leq 0 \}, \nonumber
 \end{eqnarray}
  
  
@@ -39,9 +39,9 @@ This approach is to transform the bilevel program into a single-level optimizati
 by converting the lower-level problem to its KKT conditions: $ \nabla_y f(x,y)-\nabla_y g(x,y)^\top z=0,~ g(x,y)\leq 0,~  z \leq 0,~   g(x,y)^\top z=0. $ By doing so,  <span style="color:blue">**SNKKT**</span> aims at solving a partial penalization
 
 \begin{eqnarray}
-\min_{x,y,z}&&F(x,y)+ \lambda g(x,y)^\top z\nonumber\\\\\\
-\mbox{ s.t. }& & G(x,y)\leq 0,  \ \   g(x,y)\leq 0,\ \ z \leq 0,\nonumber\\\\\\
-&&\nabla_y f(x,y)-\nabla_y g(x,y)^\top z=0. \nonumber\end{eqnarray}  
+\min_{x,y,z}  && F(x,y)+ \lambda g(x,y)^\top z\nonumber\\\\\\
+\mbox{ s.t. } && G(x,y)\leq 0,  \ \   g(x,y)\leq 0,\ \ z \leq 0,\nonumber\\\\\\
+              && \nabla_y f(x,y)-\nabla_y g(x,y)^\top z=0. \nonumber\end{eqnarray}  
 
 
 <span style="color:orange">BiOpt-Solvers</span>
