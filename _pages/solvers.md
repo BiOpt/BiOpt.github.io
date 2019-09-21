@@ -10,11 +10,10 @@ author_profile: true
 
 Bilevel optimization has the form
 
-{math: latex}
-```
-\min_{x,y}   F(x,y) 
-\mbox{s.t.}  G(x,y)\leq 0,~ y\in \mbox{argmin}_y~ \{ f(x,y)\mid g(x,y)\leq 0 \}
-```
+$$\begin{eqnarray}\min_{x,y}&   F(x,y) \nonumber\\
+\mbox{s.t.}& G(x,y)\leq 0,~ y\in \mbox{argmin}_y~ \{ f(x,y)\mid g(x,y)\leq 0 \}, \nonumber
+\end{eqnarray}$$
+ 
 
 
 $$\begin{eqnarray} a^2 + b^2 &=& c^2 \\ &=& 5 \end{eqnarray}$$
