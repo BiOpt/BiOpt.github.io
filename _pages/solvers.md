@@ -15,6 +15,11 @@ Bilevel optimization has the form
 \min_{x,y}   F(x,y) 
 \mbox{s.t.}  G(x,y)\leq 0,~ y\in \mbox{argmin}_y~ \{ f(x,y)\mid g(x,y)\leq 0 \}
 ```
+
+
+$$\begin{eqnarray} a^2 + b^2 &=& c^2 \\ &=& 5 \end{eqnarray}$$
+
+
 where  $F,f:\mathbb{R}^{n_x}\times\mathbb{R}^{n_y}\rightarrow \mathbb{R}$, $G:\mathbb{R}^{n_x}\times\mathbb{R}^{n_y}\rightarrow \mathbb{R}^{n_G}$ and $g:\mathbb{R}^{n_x}\times\mathbb{R}^{n_y}\rightarrow \mathbb{R}^{n_g}$. It only takes inequalities constraints into consideration. This two level optimization can be transformed into a single-level version so that Semi-smooth Newton type method is able to be used. 
 
 <span style="color:orange">SNLLVF</span>
