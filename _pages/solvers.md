@@ -26,7 +26,6 @@ the lower-level value function (LLVF) reformulation, namely,  $g(x,y)\leq 0, f(x
 \mbox{ s.t. } &&  G(x,y)\leq 0,~ g(x,y)\leq 0. \nonumber
 \end{eqnarray}
  
- 
 <span style="color:orange">SNQVI</span>
 ---
 This approach is to transform the bilevel program into a single-level optimization problem 
