@@ -21,7 +21,7 @@ where  $F,f:\mathbb{R}^{n_x}\times\mathbb{R}^{n_y}\rightarrow \mathbb{R}$, $G:\m
 This approach is to transform the bilevel program into a single-level optimization problem by using
 the lower-level value function (LLVF) reformulation, namely,  $g(x,y)\leq 0, f(x,y) = \varphi(x) := \underset{z}\min\lbrace f(x,z) \mid g(x,z)\leq 0 \lbrace$.   By doing so, <span style="color:blue">**SNLLVF**</span> aims at solving a partial penalization
 
-\begin{eqnarray}\min_{x,y} && F(x,y) + \lambda (f(x,y) -\varphi(x)) \nonumber\\\\\\
+\begin{eqnarray}\min_{x,y} && F(x,y) + \lambda (f(x,y) -\varphi(x)) \nonumber\\\nonumber\\\nonumber\\
 \mbox{ s.t. } &&  G(x,y)\leq 0,~ g(x,y)\leq 0. \nonumber
 \end{eqnarray}
  
