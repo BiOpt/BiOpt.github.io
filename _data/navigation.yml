@@ -5,16 +5,16 @@ main:
 
   - title: "Solvers"
     url: /solvers/
-
+    
+  - title: "BOLIB"
+    url: /bolib/
+    
   - title: "GetDerivatives"
     url: /getderivatives/    
 
   - title: "OptValFunc"
     url: /valuefunc/    
     
-  - title: "BOLIB"
-    url: /bolib/
- 
   - title: "Contact us"
     url: /contact/
  
