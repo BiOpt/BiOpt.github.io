@@ -10,9 +10,9 @@ author_profile: true
 
 Bilevel optimization has the form
 
-\begin{eqnarray}\min_{x,y} &&   F(x,y) \nonumber\\\\\\
+\begin{eqnarray*}\min_{x,y} &&   F(x,y) \nonumber\\\\\\
 \mbox{s.t.} && G(x,y)\leq 0,~ y\in \mbox{argmin}_y~ \{ f(x,y)\mid g(x,y)\leq 0 \}, \nonumber
-\end{eqnarray}
+\end{eqnarray*}
  
  
 where  $F,f:\mathbb{R}^{n_x}\times\mathbb{R}^{n_y}\rightarrow \mathbb{R}$, $G:\mathbb{R}^{n_x}\times\mathbb{R}^{n_y}\rightarrow \mathbb{R}^{n_G}$ and $g:\mathbb{R}^{n_x}\times\mathbb{R}^{n_y}\rightarrow \mathbb{R}^{n_g}$. It only takes inequalities constraints into consideration. This two level optimization can be transformed into a single-level version so that Semi-smooth Newton type method is able to be used. 
@@ -22,9 +22,9 @@ where  $F,f:\mathbb{R}^{n_x}\times\mathbb{R}^{n_y}\rightarrow \mathbb{R}$, $G:\m
 This approach is to transform the bilevel program into a single-level optimization problem by using
 the lower-level value function (LLVF) reformulation, namely,  $g(x,y)\leq 0, f(x,y) = \varphi(x) := \underset{z}\min$ \{ $ f(x,z) \mid g(x,z)\leq 0 $ \}.   By doing so, <span style="color:blue">**SNLLVF**</span> aims at solving a partial penalization
 
-\begin{eqnarray}\min_{x,y} && F(x,y) + \lambda (f(x,y) -\varphi(x)) \nonumber\\\\\\
+\begin{eqnarray*}\min_{x,y} && F(x,y) + \lambda (f(x,y) -\varphi(x)) \nonumber\\\\\\
 \mbox{ s.t. } &&  G(x,y)\leq 0,~ g(x,y)\leq 0. \nonumber
-\end{eqnarray}
+\end{eqnarray*}
  
  
 <span style="color:orange">SNQVI</span>
@@ -32,9 +32,9 @@ the lower-level value function (LLVF) reformulation, namely,  $g(x,y)\leq 0, f(x
 This approach is to transform the bilevel program into a single-level optimization problem 
 by converting the lower-level problem to its quasi-variational inequality conditions, a stationary condition: $ \langle \nabla_y f(x,y), z-y \rangle \geq0, \forall~z: g(x,z)\leq 0$ for any $y: g(x,y)\leq 0$. Let $\varphi(x,y) := \underset{z}\min$ \{ $\nabla_y f(x,y)^\top z \mid g(x,z)\leq 0 $ \} .  By doing so,  <span style="color:blue">**SNQVI**</span> aims at solving a partial penalization
 
-\begin{eqnarray}\min_{x,y} && F(x,y)+ \lambda ( \nabla_y f(x,y)^\top y-\varphi(x,y) ) \nonumber\\\\\\
+\begin{eqnarray*}\min_{x,y} && F(x,y)+ \lambda ( \nabla_y f(x,y)^\top y-\varphi(x,y) ) \nonumber\\\\\\
 \mbox{ s.t. } && G(x,y)\leq 0,  \ \   g(x,y)\leq 0. \nonumber
-\end{eqnarray}
+\end{eqnarray*}
 
 
 <span style="color:orange">SNKKT</span>
@@ -42,10 +42,10 @@ by converting the lower-level problem to its quasi-variational inequality condit
 This approach is to transform the bilevel program into a single-level optimization problem 
 by converting the lower-level problem to its KKT conditions: $ \nabla_y f(x,y)-\nabla_y g(x,y)^\top z=0,~ g(x,y)\leq 0,~  z \leq 0,~   g(x,y)^\top z=0. $ By doing so,  <span style="color:blue">**SNKKT**</span> aims at solving a partial penalization
 
-\begin{eqnarray}
+\begin{eqnarray*}
 \min_{x,y,z}  && F(x,y)+ \lambda g(x,y)^\top z\nonumber\\\\\\
-\mbox{ s.t. } && G(x,y)\leq 0,  \ \   g(x,y)\leq 0,\ \ z \leq 0, \ \ \nabla_y f(x,y)-\nabla_y g(x,y)^\top z=0. \nonumber
-\end{eqnarray}  
+\mbox{ s.t. } && G(x,y)\leq 0,  \   g(x,y)\leq 0,\ z \leq 0, \ \nabla_y f(x,y)-\nabla_y g(x,y)^\top z=0. \nonumber
+\end{eqnarray*}  
 
 
 <span style="color:orange">BiOpt-Solvers</span>
