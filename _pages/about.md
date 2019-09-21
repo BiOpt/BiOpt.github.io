@@ -17,6 +17,11 @@ redirect_from:
 ---
 [BiOpt-Solvers.zip](\files\BiOpt-Solvers.zip) contains three bilevel optimization solvers: <span style="color:blue">**SNLLVF**</span>, <span style="color:blue">**SNQVI**</span>  and <span style="color:blue">**SNKKT**</span>. All of them are created based on Semismooth Newton-type methods.  [More information here](https://biopt.github.io/solvers/) 
 
+<span style="color:orange">BOLIB </span>   
+---
+[BOLIBver2.zip](\files\BOLIBver2.zip) is a collection of academic and real-world applications or case studies on the problems including 24 linear, 138 nonlinear and 11 simple bilevel optimization test examples. [More information here](https://biopt.github.io/bolib/) 
+
+
 <span style="color:orange">Derivatives calculator </span>  
 ---
 [GetDerivatives.zip](\files\GetDerivatives.zip) provides a tool to calculate the first, second and third order derivatives of a single/set-valued function. [More information here](https://biopt.github.io/getderivatives/) 
@@ -24,8 +29,4 @@ redirect_from:
 <span style="color:orange">Optimal-value function tools </span>   
 ---
 [OptValFunc.zip](\files\OptValFunc.zip) comprises two tools to operate an optimal-value function with plotting  its graph or computing its function value.  [More information here](https://biopt.github.io/valuefunc/) 
-
-<span style="color:orange">BOLIB </span>   
----
-[BOLIBver2.zip](\files\BOLIBver2.zip) is a collection of academic and real-world applications or case studies on the problems including 24 linear, 138 nonlinear and 11 simple bilevel optimization test examples. [More information here](https://biopt.github.io/bolib/) 
 
