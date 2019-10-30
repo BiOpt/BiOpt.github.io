@@ -4,7 +4,7 @@ title: ""
 permalink: /getderivatives/
 author_profile: true
 ---
-<span style="color:orange">Derivatives Calculator</span> 
+<span style="color:grey">Derivatives Calculator</span> 
 ===
 
 It is  known that Matlab provides users a function <span style="color:blue">**jacobian**</span> ([more information here](https://uk.mathworks.com/help/symbolic/jacobian.html)) to compute the Jacobian
