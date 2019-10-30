@@ -5,7 +5,7 @@ permalink: /solvers/
 author_profile: true
 ---
 
-<span style="color:orange">Bilevel optimization solvers</span> 
+<span style="color:grey">Bilevel optimization solvers</span> 
 ===
 
 Bilevel optimization has the form
@@ -16,7 +16,7 @@ Bilevel optimization has the form
  
 where  $F,f:\mathbb{R}^{n_x}\times\mathbb{R}^{n_y}\rightarrow \mathbb{R}$, $G:\mathbb{R}^{n_x}\times\mathbb{R}^{n_y}\rightarrow \mathbb{R}^{n_G}$ and $g:\mathbb{R}^{n_x}\times\mathbb{R}^{n_y}\rightarrow \mathbb{R}^{n_g}$. It only takes inequalities constraints into consideration. This two level optimization can be transformed into a single-level version so that Semi-smooth Newton type method is able to be used. 
 
-<span style="color:orange">SNLLVF</span>
+<span style="color:grey">SNLLVF</span>
 ---
 This approach is to transform the bilevel program into a single-level optimization problem by using
 the lower-level value function (LLVF) reformulation, namely,  $g(x,y)\leq 0, f(x,y) = \varphi(x) := \underset{z}\min\lbrace f(x,z) \mid g(x,z)\leq 0 \rbrace$.   By doing so, <span style="color:blue">**SNLLVF**</span> aims at solving a partial penalization
@@ -25,7 +25,7 @@ the lower-level value function (LLVF) reformulation, namely,  $g(x,y)\leq 0, f(x
 \mbox{ s.t. } &&  G(x,y)\leq 0,~ g(x,y)\leq 0. \nonumber
 \end{eqnarray}
  
-<span style="color:orange">SNQVI</span>
+<span style="color:grey">SNQVI</span>
 ---
 This approach is to transform the bilevel program into a single-level optimization problem 
 by converting the lower-level problem to its quasi-variational inequality conditions, a stationary condition: $ \langle \nabla_y f(x,y), z-y \rangle \geq0, \forall~z: g(x,z)\leq 0$ for any $y: g(x,y)\leq 0$. Let $\varphi(x,y) := \underset{z}\min$ \{ $\nabla_y f(x,y)^\top z \mid g(x,z)\leq 0 $ \} .  By doing so,  <span style="color:blue">**SNQVI**</span> aims at solving a partial penalization
@@ -35,7 +35,7 @@ by converting the lower-level problem to its quasi-variational inequality condit
 \end{eqnarray}
 
 
-<span style="color:orange">SNKKT</span>
+<span style="color:grey">SNKKT</span>
 ---
 This approach is to transform the bilevel program into a single-level optimization problem 
 by converting the lower-level problem to its KKT conditions: $ \nabla_y f(x,y)-\nabla_y g(x,y)^\top z=0,~ g(x,y)\leq 0,~  z \leq 0,~   g(x,y)^\top z=0. $ By doing so,  <span style="color:blue">**SNKKT**</span> aims at solving a partial penalization
@@ -46,7 +46,7 @@ by converting the lower-level problem to its KKT conditions: $ \nabla_y f(x,y)-\
 \end{eqnarray}  
 
 
-<span style="color:orange">BiOpt-Solvers</span>
+<span style="color:grey">BiOpt-Solvers</span>
 ---
 [BiOpt-Solvers.zip](/files/BiOpt-Solvers.zip) provides three solvers: <span style="color:blue">**SNLLVF**</span>, <span style="color:blue">**SNQVI**</span>  and <span style="color:blue">**SNKKT**</span> based on above three reformulations. Detailed descriptions of using them can be found in  the [menu-of-BiOpt.pdf](\files\menu-of-BiOpt.pdf). Here we give a simple example to illustrate it:
 
