@@ -7,7 +7,6 @@ author_profile: true
 
 <span style="color:grey">Bilevel optimization library of test problems</span> 
 ===
-
 This library tidies up  173 bilevel optimization test examples containing 24 linear, 138 nonlinear and  11 simple ones from a wide range of pablications. A [bilevel optimization problem](https://biopt.github.io/solvers/) is linear if all its involved functions $F, G, f$ and $g$ are linear, otherwise, it is nonlinear. As a special class of bilevel optimization,  simple bilevel optimization is defined by
 
 $$ \min_{y}~ F(y)~~ \mbox{s.t.}~  G(y)\leq 0,~ y\in \mbox{argmin}_y~ \{ f(y)\mid g(y)\leq 0 \}. \nonumber $$
