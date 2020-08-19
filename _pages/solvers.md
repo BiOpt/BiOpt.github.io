@@ -48,7 +48,7 @@ by converting the lower-level problem to its KKT conditions: $ \nabla_y f(x,y)-\
 
 <span style="color:grey">BiOpt-Solvers</span>
 ---
-[BiOpt-Solvers.zip](/files/BiOpt-Solvers.zip) provides three solvers: <span style="color:blue">**SNLLVF**</span>, <span style="color:blue">**SNQVI**</span>  and <span style="color:blue">**SNKKT**</span> based on above three reformulations. Detailed descriptions of using them can be found in  the [menu-of-BiOpt.pdf](/files/menu-of-BiOpt.pdf). Here we give a simple example to illustrate it:
+[BiOpt-Solvers.zip](/files/BiOpt-Solvers.zip) provides three solvers: <span style="color:blue">**SNLLVF**</span>, <span style="color:blue">**SNQVI**</span>  and <span style="color:blue">**SNKKT**</span> based on above three reformulations. Detailed instructions can be found in  the [menu-of-BiOpt.pdf](/files/menu-of-BiOpt.pdf). Here we give a simple example to illustrate it:
 
 ```
 clc; clear; close all; 
@@ -99,7 +99,7 @@ else
         case 'xy'; w = [];
         case 'yy'; w = [];
         end           
-	case 'f'   
+    case 'f'   
         switch keyxy
         case 'x' ; w = 2*x*y;    
         case 'y' ; w = x^2;          
@@ -107,7 +107,7 @@ else
         case 'xy'; w = 2*x;
         case 'yy'; w = 0;
         end           
-	case 'g'   
+    case 'g'   
         switch keyxy
         case 'x' ; w =   0;  
         case 'y' ; w =   2*y;         
