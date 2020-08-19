@@ -75,4 +75,5 @@ else
 end
 end
  ```
-This m-file defines one example from [Outrata](https://link.springer.com/article/10.1007/BF01416737), including all function values, first and second order derivatives of $F, G, f$ and $g$.
+<div style="text-align:justify;">
+ This m-file defines one example from <a href="https://link.springer.com/article/10.1007/BF01416737">Outrata</a>, including all function values, first and second order derivatives of $F, G, f$ and $g$.</div>
