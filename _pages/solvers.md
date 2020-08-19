@@ -53,7 +53,7 @@ by converting the lower-level problem to the KKT conditions: $ \nabla_y f(x,y)-\
 <span style="color:grey">BiOpt-Solvers</span>
 ---
 <div style="text-align:justify;">
-<a href="/files/BiOpt-Solvers.zip">BiOpt-Solvers.zip</a> provides three solvers: <span style="color:blue"><b>SNLLVF</b></span>, <span style="color:blue"><b>SNQVI</b></span>  and <span style="color:blue"><b>SNKKT</b></span> based on above three reformulations. Detailed instructions can be found in  the <a href="/files/menu-of-BiOpt.pdf">menu-of-BiOpt.pdf</a>. Here we give a simple example to illustrate it:
+<a href="/files/BiOpt-Solvers">BiOpt-Solvers.zip</a> provides three solvers: <span style="color:blue"><b>SNLLVF</b></span>, <span style="color:blue"><b>SNQVI</b></span>  and <span style="color:blue"><b>SNKKT</b></span> based on above three reformulations. Detailed instructions can be found in  the <a href="/files/menu-of-BiOpt">menu-of-BiOpt.pdf</a>. Here we give a simple example to illustrate it:
 </div>
 
 ```
@@ -74,7 +74,7 @@ solver     = str2func(Solvers{SolNo});
 Out1       = solver(func, dim,  pars);
 ```
 <div style="text-align:justify;">
-Each solver have two required inputs: 'func' defining the example and 'dim' recording dimensions of the example, and an optinal input 'pars' including some parameters. Please see the <a href="/files/menu-of-BiOpt.pdf">menu-of-BiOpt.pdf</a> for more details of 'pars'. The chosen solver is <span style="color:blue"><b>SNLLVF</b></span> and the solved example is 'DempeDutta2012Ex24' defined by following Matlab m-file:
+Each solver have two required inputs: 'func' defining the example and 'dim' recording dimensions of the example, and an optinal input 'pars' including some parameters. Please see the <a href="/files/menu-of-BiOpt">menu-of-BiOpt.pdf</a> for more details of 'pars'. The chosen solver is <span style="color:blue"><b>SNLLVF</b></span> and the solved example is 'DempeDutta2012Ex24' defined by following Matlab m-file:
 </div>
 
 ```
@@ -127,5 +127,5 @@ end
 end
 ```
 <div style="text-align:justify;">
-This example is from <a href="/files/BOLIBver2.zip">BOLIBver2.zip</a>, in which more examples can be found. In  the <a href="/files/menu-of-BiOpt.pdf">menu-of-BiOpt.pdf</a>, we also present several other ways to define the examples that are different with the way to define examples in  <a href="/files/BOLIBver2.zip">BOLIBver2.zip</a>.
+This example is from <a href="/files/BOLIBver2">BOLIBver2.zip</a>, in which more examples can be found. In  the <a href="/files/menu-of-BiOpt">menu-of-BiOpt.pdf</a>, we also present several other ways to define the examples that are different with the way to define examples in  <a href="/files/BOLIBver2">BOLIBver2.zip</a>.
 </div>
