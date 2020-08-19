@@ -7,19 +7,24 @@ author_profile: true
 
 <span style="color:grey">Bilevel optimization library of test problems</span> 
 ===
-This library tidies up  173 bilevel optimization test examples containing 24 linear, 138 nonlinear and  11 simple ones from a wide range of pablications. A [bilevel optimization problem](https://biopt.github.io/solvers/) is linear if all its involved functions $F, G, f$ and $g$ are linear, otherwise, it is nonlinear. As a special class of bilevel optimization,  simple bilevel optimization is defined by
+<div style="text-align:justify;">
+ This library tidies up  173 bilevel optimization test examples containing 24 linear, 138 nonlinear and  11 simple ones from a wide range of pablications. A <a href="https://biopt.github.io/solvers/">bilevel optimization problem</a> is linear if all its involved functions $F, G, f$ and $g$ are linear, otherwise, it is nonlinear. As a special class of bilevel optimization,  simple bilevel optimization is defined by
+</div>
 
 $$ \min_{y}~ F(y)~~ \mbox{s.t.}~  G(y)\leq 0,~ y\in \mbox{argmin}_y~ \{ f(y)\mid g(y)\leq 0 \}. \nonumber $$
 
 <span style="color:grey">BOLIB</span>
 ---
-
- This is the old version of  bilevel optimization test problems library: <span style="color:blue">**BOLIB**</span> ([more information here](https://github.com/ShenglongZhou/BOLIB)).  It contains 124 nonlinear bilevel optimization test examples ([more details here](https://www.researchgate.net/publication/325120369)). 
+<div style="text-align:justify;">
+ This is the old version of  bilevel optimization test problems library: <span style="color:blue"><b>BOLIB</b></span> (<a href="https://github.com/ShenglongZhou/BOLIB">more information here</a>).  It contains 124 nonlinear bilevel optimization test examples (<a href="https://www.researchgate.net/publication/325120369">more details here</a>). 
+</div>
 
 <span style="color:grey">BOLIBver2</span>
 ---
-This is a new version constructed based on the old one. [BOLIBver2.zip](\files\BOLIBver2.zip) comprises 173  bilevel optimization test examples: 138 nonlinear  (in which 124 ones are taken from <span style="color:blue">**BOLIB**</span>), 24 linear and  11 simple ones. The whole list can be found in [BOLIB 2019: Bilevel Optimization LIBrary of test problems version 2.pdf](\files\Paper.pdf). All examples are coded through Matlab and saved in m-files. Each m-file has similar pattern. For example,
- 
+<div style="text-align:justify;">
+This is a new version constructed based on the old one. <a href="\files\BOLIBver2.zip">BOLIBver2.zip</a> comprises 173  bilevel optimization test examples: 138 nonlinear  (in which 124 ones are taken from <span style="color:blue"><b>BOLIB</b></span>), 24 linear and  11 simple ones. The whole list can be found in <a href="\files\Paper.pdf">BOLIB 2019: Bilevel Optimization LIBrary of test problems version 2.pdf</a>. All examples are coded through Matlab and saved in m-files. Each m-file has similar pattern. For example,
+</div>
+
  ```
 function w=Outrata1990Ex1a(x,y,keyf,keyxy)
 % This file provides all functions defining Outrata1990Ex1a problem and their first and second order derivatives.
