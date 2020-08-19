@@ -8,7 +8,7 @@ author_profile: true
 <span style="color:grey">Optimal-value function tools</span> 
 ===
 <div style="text-align:justify;"> 
-This toolbox <a href="\files\OptValFunc.zip">OptValFunc</a> aims at operating an optimal-value function in the form 
+The toolbox <a href="\files\OptValFunc.zip">OptValFunc</a> aims at operating an optimal-value function in the form 
 </div> 
 
 $$ \psi(x) = \min_{y} \{f(x, y):~g(x; y)\leq 0\},\nonumber $$
