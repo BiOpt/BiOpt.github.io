@@ -52,7 +52,9 @@ by converting the lower-level problem to the KKT conditions: $ \nabla_y f(x,y)-\
 
 <span style="color:grey">BiOpt-Solvers</span>
 ---
-[BiOpt-Solvers.zip](/files/BiOpt-Solvers.zip) provides three solvers: <span style="color:blue">**SNLLVF**</span>, <span style="color:blue">**SNQVI**</span>  and <span style="color:blue">**SNKKT**</span> based on above three reformulations. Detailed instructions can be found in  the [menu-of-BiOpt.pdf](/files/menu-of-BiOpt.pdf). Here we give a simple example to illustrate it:
+<div style="text-align:justify;">
+<a href="/files/BiOpt-Solvers.zip">BiOpt-Solvers.zip</a> provides three solvers: <span style="color:blue"><b>SNLLVF</b></span>, <span style="color:blue"><b>SNQVI</b></span>  and <span style="color:blue"><b>SNKKT</b></span> based on above three reformulations. Detailed instructions can be found in  the <a href="/files/menu-of-BiOpt.pdf">menu-of-BiOpt.pdf</a>. Here we give a simple example to illustrate it:
+</div>
 
 ```
 clc; clear; close all; 
@@ -71,8 +73,9 @@ Solvers    = {'SNLLVF','SNQVI','SNKKT'};
 solver     = str2func(Solvers{SolNo});  
 Out1       = solver(func, dim,  pars);
 ```
-
-Each solver have two required inputs: 'func' defining the example and 'dim' recording dimensions of the example, and an optinal input 'pars' including some parameters. Please see the [menu-of-BiOpt.pdf](/files/menu-of-BiOpt.pdf) for more details of 'pars'. The chosen solver is <span style="color:blue">**SNLLVF**</span> and the solved example is 'DempeDutta2012Ex24' defined by following Matlab m-file:
+<div style="text-align:justify;">
+Each solver have two required inputs: 'func' defining the example and 'dim' recording dimensions of the example, and an optinal input 'pars' including some parameters. Please see the <a href="/files/menu-of-BiOpt.pdf">menu-of-BiOpt.pdf</a> for more details of 'pars'. The chosen solver is <span style="color:blue"><b>SNLLVF</b></span> and the solved example is 'DempeDutta2012Ex24' defined by following Matlab m-file:
+</div>
 
 ```
 function w=DempeDutta2012Ex24(x,y,keyf,keyxy)
@@ -123,5 +126,6 @@ else
 end
 end
 ```
-
-This example is from <span style="color:blue">**BOLIBver2**</span> ([BOLIBver2.zip](/files/BOLIBver2.zip)), in which more examples can be found. In  the [menu-of-BiOpt.pdf](/files/menu-of-BiOpt.pdf), we also present several other ways to define the examples that are different with the way to define examples in  <span style="color:blue">**BOLIBver2**</span> .
+<div style="text-align:justify;">
+This example is from <span style="color:blue">**BOLIBver2**</span> ([BOLIBver2.zip](/files/BOLIBver2.zip)), in which more examples can be found. In  the <a href="/files/menu-of-BiOpt.pdf">menu-of-BiOpt.pdf</a>, we also present several other ways to define the examples that are different with the way to define examples in  <span style="color:blue"><b>BOLIBver2</b></span> .
+</div>
