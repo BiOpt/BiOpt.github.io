@@ -127,5 +127,5 @@ end
 end
 ```
 <div style="text-align:justify;">
-This example is from <span style="color:blue"><b>BOLIBver2</b></span> ([BOLIBver2.zip](/files/BOLIBver2.zip)), in which more examples can be found. In  the <a href="/files/menu-of-BiOpt.pdf">menu-of-BiOpt.pdf</a>, we also present several other ways to define the examples that are different with the way to define examples in  <span style="color:blue"><b>BOLIBver2</b></span> .
+This example is from <a href="/files/BOLIBver2.zip">BOLIBver2.zip</a>, in which more examples can be found. In  the <a href="/files/menu-of-BiOpt.pdf">menu-of-BiOpt.pdf</a>, we also present several other ways to define the examples that are different with the way to define examples in  <a href="/files/BOLIBver2.zip">BOLIBver2.zip</a>.
 </div>
