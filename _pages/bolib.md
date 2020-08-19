@@ -50,7 +50,7 @@ else
         case 'xy'; w = [];
         case 'yy'; w = [];
         end           
-	case 'f'   
+    case 'f'   
         switch keyxy
         case 'x' ; w = -y;    
         case 'y' ; w = [1 -2; -2 5]*y-x;        
@@ -58,7 +58,7 @@ else
         case 'xy'; w = -eye(2);
         case 'yy'; w = [1 -2; -2 5];
         end           
-	case 'g'   
+    case 'g'   
         switch keyxy
         case 'x' ; w = zeros(4,2);
         case 'y' ; w = [-0.333 1; 1 -0.333; -eye(2)];                
