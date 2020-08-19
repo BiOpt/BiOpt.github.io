@@ -28,11 +28,11 @@ redirect_from:
 <span style="color:grey">Derivatives calculator </span>  
 ---
 <div style="text-align:justify;">
-  <a href="\files\GetDerivatives.zip">GetDerivatives.zip</a>provides a tool to calculate the first, second and third order derivatives of a single/set-valued function. <a href="https://biopt.github.io/getderivatives/">More information here</a>
+  <a href="\files\GetDerivatives.zip">GetDerivatives.zip</a> provides a tool to calculate the first, second and third order derivatives of a single/set-valued function. <a href="https://biopt.github.io/getderivatives/">More information here</a>
 </div>
 
 <span style="color:grey">Optimal-value function tools </span>   
 ---
 <div style="text-align:justify;">
-  <a href="\files\OptValFunc.zip">OptValFunc.zip</a>comprises two tools to operate an optimal-value function with plotting  its graph or computing its function value.  <a href="https://biopt.github.io/valuefunc/">More information here</a>
+  <a href="\files\OptValFunc.zip">OptValFunc.zip</a> comprises two tools to operate an optimal-value function with plotting  its graph or computing its function value.  <a href="https://biopt.github.io/valuefunc/">More information here</a>
 </div>
