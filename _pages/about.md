@@ -22,17 +22,17 @@ redirect_from:
 <span style="color:grey">BOLIB </span>   
 ---
 <div style="text-align:justify;">
-  [BOLIBver2.zip](\files\BOLIBver2.zip) is a collection of academic and real-world applications or case studies on the problems including 24 linear, 138 nonlinear and 11 simple bilevel optimization test examples. [More information here](https://biopt.github.io/bolib/) 
+   <a href="\files\BOLIBver2.zip"> BOLIBver2.zip</a> is a collection of academic and real-world applications or case studies on the problems including 24 linear, 138 nonlinear and 11 simple bilevel optimization test examples. <a href="https://biopt.github.io/bolib/">More information here</a> 
 </div>
 
 <span style="color:grey">Derivatives calculator </span>  
 ---
 <div style="text-align:justify;">
-  [GetDerivatives.zip](\files\GetDerivatives.zip) provides a tool to calculate the first, second and third order derivatives of a single/set-valued function. [More information here](https://biopt.github.io/getderivatives/) 
+  <a href="\files\GetDerivatives.zip">GetDerivatives.zip</a>provides a tool to calculate the first, second and third order derivatives of a single/set-valued function. <a href="https://biopt.github.io/getderivatives/">More information here</a>
 </div>
 
 <span style="color:grey">Optimal-value function tools </span>   
 ---
 <div style="text-align:justify;">
-  [OptValFunc.zip](\files\OptValFunc.zip) comprises two tools to operate an optimal-value function with plotting  its graph or computing its function value.  [More information here](https://biopt.github.io/valuefunc/) 
+  <a href="\files\OptValFunc.zip">OptValFunc.zip</a>comprises two tools to operate an optimal-value function with plotting  its graph or computing its function value.  <a href="https://biopt.github.io/valuefunc/">More information here</a>
 </div>
