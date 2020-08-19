@@ -15,19 +15,24 @@ redirect_from:
 
 <span style="color:grey">Bilevel optimization solvers </span> 
 ---
-<div style="text-align:justify;">[BiOpt-Solvers.zip](\files\BiOpt-Solvers.zip) contains three bilevel optimization solvers: <span style="color:blue">**SNLLVF**</span>, <span style="color:blue">**SNQVI**</span>  and <span style="color:blue">**SNKKT**</span>. All of them are created based on Semismooth Newton-type methods.  [More information here](https://biopt.github.io/solvers/) 
+<div style="text-align:justify;">
+  <a href="\files\BiOpt-Solvers.zip"> BiOpt-Solvers.zip</a>  contains three bilevel optimization solvers: <span style="color:blue"> <b>SNLLVF</b></span>, <span style="color:blue"> <b>SNQVI</b></span>  and <span style="color:blue"> <b>SNKKT</b></span>. All of them are created based on Semismooth Newton-type methods.  <a href="https://biopt.github.io/solvers/"> More information here </a>
+</div>
 
 <span style="color:grey">BOLIB </span>   
 ---
-<div style="text-align:justify;">[BOLIBver2.zip](\files\BOLIBver2.zip) is a collection of academic and real-world applications or case studies on the problems including 24 linear, 138 nonlinear and 11 simple bilevel optimization test examples. [More information here](https://biopt.github.io/bolib/) 
+<div style="text-align:justify;">
+  [BOLIBver2.zip](\files\BOLIBver2.zip) is a collection of academic and real-world applications or case studies on the problems including 24 linear, 138 nonlinear and 11 simple bilevel optimization test examples. [More information here](https://biopt.github.io/bolib/) 
 </div>
 
 <span style="color:grey">Derivatives calculator </span>  
 ---
-<div style="text-align:justify;">[GetDerivatives.zip](\files\GetDerivatives.zip) provides a tool to calculate the first, second and third order derivatives of a single/set-valued function. [More information here](https://biopt.github.io/getderivatives/) 
+<div style="text-align:justify;">
+  [GetDerivatives.zip](\files\GetDerivatives.zip) provides a tool to calculate the first, second and third order derivatives of a single/set-valued function. [More information here](https://biopt.github.io/getderivatives/) 
 </div>
 
 <span style="color:grey">Optimal-value function tools </span>   
 ---
-<div style="text-align:justify;">[OptValFunc.zip](\files\OptValFunc.zip) comprises two tools to operate an optimal-value function with plotting  its graph or computing its function value.  [More information here](https://biopt.github.io/valuefunc/) 
+<div style="text-align:justify;">
+  [OptValFunc.zip](\files\OptValFunc.zip) comprises two tools to operate an optimal-value function with plotting  its graph or computing its function value.  [More information here](https://biopt.github.io/valuefunc/) 
 </div>
