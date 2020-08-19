@@ -8,11 +8,11 @@ author_profile: true
 <span style="color:grey">Optimal-value function tools</span> 
 ===
 
-This toolbox <span style="color:blue">**OptValFunc**</span> aims to operate an optimal-value function  in the form 
+This toolbox <span style="color:blue">**OptValFunc**</span> aim at operating an optimal-value function in the form 
 
 $$ \psi(x) = \min_{y} \{f(x, y):~g(x; y)\leq 0\},\nonumber $$
 
-where $x\in\mathbb{R}^{n_x},y\in\mathbb{R}^{n_y}$ and $g:\mathbb{R}^{n_x\times n_y}\rightarrow \mathbb{R}^{n_g}$. Detailed descriptions of usage of this toolbox can be found in  the [menu-of-BiOpt.pdf](\files\menu-of-BiOpt.pdf). <span style="color:blue">**OptValFunc**</span> ([OptValFunc.zip](\files\OptValFunc.zip)) provides two tools:
+where $x\in\mathbb{R}^{n_x},y\in\mathbb{R}^{n_y}$ and $g:\mathbb{R}^{n_x\times n_y}\rightarrow \mathbb{R}^{n_g}$. Detailed instructions of this toolbox can be found in the [menu-of-BiOpt.pdf](\files\menu-of-BiOpt.pdf). <span style="color:blue">**OptValFunc**</span> ([OptValFunc.zip](\files\OptValFunc.zip)) provides two tools:
 
 <span style="color:grey">SolOVF</span> 
 ---
