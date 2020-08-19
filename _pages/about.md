@@ -11,7 +11,7 @@ redirect_from:
 <span style="color:grey">Welcome to BiOpt Toolbox</span> 
 ===
 
-<div style="text-align:justify;"> <span style="color:blue"> <b> BiOpt toolbox </b> </span>, to help accelerate the development of numerical toolboxes for  <a href="https://biopt.github.io/solvers/">bilevel optimization</a>,   aims at providing a platform on which users can test a wide range of bilevel optimization problems by using the provided solvers. The whole <a href="\files\BiOpt-toolbox.zip">BiOpt-toolbox.zip</a> is created through Matlab. To well understand how to use it, please see a <a href="\files\menu-of-BiOpt.pdf">menu-of-BiOpt.pdf</a>.  The current version of toolbox is made up of four basic tools: </div>
+<div style="text-align:justify;"> <span style="color:blue"> <b>BiOpt toolbox</b></span>, to help accelerate the development of numerical toolboxes for  <a href="https://biopt.github.io/solvers/">bilevel optimization</a>,   aims at providing a platform on which users can test a wide range of bilevel optimization problems by using the provided solvers. The whole <a href="\files\BiOpt-toolbox.zip">BiOpt-toolbox.zip</a> is created through Matlab. To well understand how to use it, please see a <a href="\files\menu-of-BiOpt.pdf">menu-of-BiOpt.pdf</a>.  The current version of toolbox is made up of four basic tools: </div>
 
 <span style="color:grey">Bilevel optimization solvers </span> 
 ---
