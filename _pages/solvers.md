@@ -74,7 +74,7 @@ solver     = str2func(Solvers{SolNo});
 Out1       = solver(func, dim,  pars);
 ```
 <div style="text-align:justify;">
-Each solver have two required inputs: 'func' defining the example and 'dim' recording dimensions of the example, and an optinal input 'pars' including some parameters. Please see the <a href="/files/menu-of-BiOpt.pdf">menu-of-BiOpt</a> for more details of 'pars'. The chosen solver is <span style="color:blue"><b>SNLLVF</b></span> and the solved example is 'DempeDutta2012Ex24' defined by following Matlab m-file:
+Each solver have two required inputs: 'func' defining the example and 'dim' recording dimensions of the example, and an optinal input 'pars' including some parameters. Please see the <a href="/files/menu-of-BiOpt.pdf">menu-of-BiOpt</a> for more details of 'pars'. The chosen solver is <span style="color:blue"><b>SNLLVF</b></span> and solves one example'DempeDutta2012Ex24' defined by the following Matlab m-file:
 </div>
 
 ```
@@ -127,5 +127,5 @@ end
 end
 ```
 <div style="text-align:justify;">
-This example is from <a href="/files/BOLIBver2.zip">BOLIBver2</a>, in which more examples can be found. In  the <a href="/files/menu-of-BiOpt.pdf">menu-of-BiOpt</a>, we also present several other ways to define the examples that are different with the way to define examples in  <a href="/files/BOLIBver2.zip">BOLIBver2</a>.
+This example is from <a href="/files/BOLIBver2.zip">BOLIBver2</a>, where more examples can be found. In the <a href="/files/menu-of-BiOpt.pdf">menu-of-BiOpt</a>, we also present several other ways to define the examples that are different with the way to define examples in <a href="/files/BOLIBver2.zip">BOLIBver2</a>.
 </div>
