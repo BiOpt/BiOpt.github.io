@@ -54,7 +54,7 @@ by converting the lower-level problem to the KKT conditions: $ \nabla_y f(x,y)-\
 ---
 <div style="text-align:justify;">
 <a href="/files/BiOpt-Solvers.zip">BiOpt-Solvers</a> provides three solvers: <span style="color:blue"><b>SNLLVF</b></span>, <span style="color:blue"><b>SNQVI</b></span>  and <span style="color:blue"><b>SNKKT</b></span> based on above three reformulations. Detailed instructions can be found in  the <a href="/files/menu-of-BiOpt.pdf">menu-of-BiOpt</a>. Here we give a simple example to illustrate it:
-</div> <br>
+</div>
 ```
 clc; clear; close all; 
 
@@ -74,7 +74,7 @@ Out1       = solver(func, dim,  pars);
 ```
 <div style="text-align:justify;">
 Each solver have two required inputs: 'func' defining the example and 'dim' recording dimensions of the example, and an optinal input 'pars' including some parameters. Please see the <a href="/files/menu-of-BiOpt.pdf">menu-of-BiOpt</a> for more details of 'pars'. The chosen solver is <span style="color:blue"><b>SNLLVF</b></span> and solves one example'DempeDutta2012Ex24' defined by the following Matlab m-file:
-</div> <br>
+</div>
 ```
 function w=DempeDutta2012Ex24(x,y,keyf,keyxy)
 % This file provides all functions defining DempeDutta2012Ex24 problem and their first and second order derivatives.
