@@ -22,8 +22,8 @@ $$ \min_{y}~ F(y)~~ \mbox{s.t.}~  G(y)\leq 0,~ y\in \mbox{argmin}_y~ \{ f(y)\mid
 <span style="color:grey">BOLIBver2</span>
 ---
 <div style="text-align:justify;">
-This is a new version constructed based on the old one. <a href="\files\BOLIBver2.zip">BOLIBver2</a> comprises 173  bilevel optimization test examples: 138 nonlinear  (in which 124 ones are taken from <a href="https://github.com/ShenglongZhou/BOLIB">BOLIB</a>), 24 linear and  11 simple ones. The whole list can be found in <a href="\files\Paper.pdf">BOLIB 2019: Bilevel Optimization LIBrary of test problems version 2</a>. All examples are coded through Matlab and saved in m-files. Each m-file has similar pattern. For example,
-</div><br>
+This is a new version constructed based on the old one. <a href="\files\BOLIBver2.zip">BOLIBver2</a> comprises 173  bilevel optimization test examples: 138 nonlinear  (in which 124 ones are taken from <a href="https://github.com/ShenglongZhou/BOLIB">BOLIB</a>), 24 linear and  11 simple ones. The whole list can be found in <a href="\files\Paper.pdf">BOLIB 2019: Bilevel Optimization LIBrary of test problems version 2</a>. All examples are coded through Matlab and saved in m-files. Each m-file has similar pattern. For example,<br>
+</div>
  ```
 function w=Outrata1990Ex1a(x,y,keyf,keyxy)
 % This file provides all functions defining Outrata1990Ex1a problem and their first and second order derivatives.
