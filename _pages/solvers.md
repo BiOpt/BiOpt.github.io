@@ -68,7 +68,7 @@ pars.lam   = 1;             % optional
 pars.keep  = 0;             % optional 
 pars.check = 1;             % optional
 
-SolNo      = 1;     % choose the solve
+SolNo      = 1;     % choose a solver
 Solvers    = {'SNLLVF','SNQVI','SNKKT'}; 
 solver     = str2func(Solvers{SolNo});  
 Out1       = solver(func, dim,  pars);
