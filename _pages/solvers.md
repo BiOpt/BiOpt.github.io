@@ -31,7 +31,7 @@ the lower-level value function (LLVF) reformulation, namely,  $g(x,y)\leq 0, f(x
 ---
 <div style="text-align:justify;">
 This approach is to transform the bilevel program into a single-level optimization problem 
-by converting the lower-level problem to the quasi-variational inequality conditions: $ \langle \nabla_y f(x,y), z-y \rangle \geq0, \forall~z: g(x,z)\leq 0$ for any $y: g(x,y)\leq 0$. Let $\varphi(x,y) := \underset{z}\min$ { $\nabla_y f(x,y)^\top z \mid g(x,z)\leq 0 $ }.  By doing so,  <span style="color:blue"><b>SNQVI</b></span> aims at solving a partial penalization
+by converting the lower-level problem to the quasi-variational inequality conditions: $ \langle \nabla_y f(x,y), z-y \rangle \geq0, \forall~z: g(x,z)\leq 0$ for any $y: g(x,y)\leq 0$. Let $\varphi(x,y) := \underset{z}\min\lbrace\nabla_y f(x,y)^\top z \mid g(x,z)\leq 0  \rbrace$.  By doing so,  <span style="color:blue"><b>SNQVI</b></span> aims at solving a partial penalization
 </div>
 \begin{eqnarray}\min_{x,y} && F(x,y)+ \lambda ( \nabla_y f(x,y)^\top y-\varphi(x,y) ) \nonumber\\\\\\
 \mbox{ s.t. } && G(x,y)\leq 0,  \ \   g(x,y)\leq 0. \nonumber
