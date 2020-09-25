@@ -5,7 +5,7 @@ permalink: /contact/
 author_profile: true
 ---
 
-![Dr Shenglong Zhou](/images/slzhou.jpg)
+![Dr Shenglong Zhou](/images/zsl-img.jpg)
 
 [Dr Shenglong Zhou](https://shenglongzhou.github.io) 
 ---
